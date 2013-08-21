@@ -1,0 +1,12 @@
+/* 
+  Localization.strings
+  TFL
+
+  Created by Mohammed Shahid on 05/10/12.
+  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+*/
+"Pick a Line" = "Choisissez une ligne";
+"Pick a Station" = "Choisissez une station";
+"Departures" = "départs";
+"Find All Departures" = "Trouver tous les départs";
+"Planner" = "planificateur";

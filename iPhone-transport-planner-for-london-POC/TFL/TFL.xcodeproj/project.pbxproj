@@ -1,0 +1,1499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F71821211615BF1300C8F95B /* TFL-ProjectPlan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F71821201615BF1300C8F95B /* TFL-ProjectPlan.pdf */; };
+		F71821271615BF8300C8F95B /* TFLRoutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71821261615BF8300C8F95B /* TFLRoutesViewController.m */; };
+		F718212A1615BF9100C8F95B /* TFLDetailRoutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71821291615BF9100C8F95B /* TFLDetailRoutesViewController.m */; };
+		F718212D1615BFA200C8F95B /* TFLPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F718212C1615BFA200C8F95B /* TFLPreferencesViewController.m */; };
+		F71821331615BFD200C8F95B /* TFLTubeStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71821321615BFD200C8F95B /* TFLTubeStatusViewController.m */; };
+		F71821361615BFE500C8F95B /* DepartureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71821351615BFE500C8F95B /* DepartureViewController.m */; };
+		F71821391615BFF400C8F95B /* DepartureDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71821381615BFF400C8F95B /* DepartureDetailViewController.m */; };
+		F718213C1615C00200C8F95B /* DLRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F718213B1615C00200C8F95B /* DLRDetailViewController.m */; };
+		F71821421615C02900C8F95B /* TFLRoutesAnnotations.m in Sources */ = {isa = PBXBuildFile; fileRef = F71821411615C02900C8F95B /* TFLRoutesAnnotations.m */; };
+		F71821451615C03800C8F95B /* TFLTubeStatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F71821441615C03800C8F95B /* TFLTubeStatusModel.m */; };
+		F71821481615C04600C8F95B /* stationCodesFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F71821471615C04600C8F95B /* stationCodesFetcher.m */; };
+		F718214B1615C05400C8F95B /* TFLSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F718214A1615C05400C8F95B /* TFLSearchModel.m */; };
+		F718214E1615C06500C8F95B /* placesAnnotations.m in Sources */ = {isa = PBXBuildFile; fileRef = F718214D1615C06500C8F95B /* placesAnnotations.m */; };
+		F71821511615C07E00C8F95B /* PlacesFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F71821501615C07E00C8F95B /* PlacesFetcher.m */; };
+		F71821541615C0A400C8F95B /* TubeStatusCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F71821531615C0A400C8F95B /* TubeStatusCustomCell.m */; };
+		F71821571615C0B300C8F95B /* DepartureCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F71821561615C0B300C8F95B /* DepartureCustomCell.m */; };
+		F718215A1615C0C200C8F95B /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F71821591615C0C200C8F95B /* CircleView.m */; };
+		F718215D1615C0D000C8F95B /* RoutesDisplayCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F718215C1615C0D000C8F95B /* RoutesDisplayCustomCell.m */; };
+		F71821601615C0DF00C8F95B /* RouteSummaryCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F718215F1615C0DF00C8F95B /* RouteSummaryCustomCell.m */; };
+		F71821631615C10C00C8F95B /* POI.m in Sources */ = {isa = PBXBuildFile; fileRef = F71821621615C10C00C8F95B /* POI.m */; };
+		F71821661615C11900C8F95B /* Stations.m in Sources */ = {isa = PBXBuildFile; fileRef = F71821651615C11900C8F95B /* Stations.m */; };
+		F71821681615C14100C8F95B /* Stations.txt in Resources */ = {isa = PBXBuildFile; fileRef = F71821671615C14100C8F95B /* Stations.txt */; };
+		F718216A1615C14D00C8F95B /* venues.txt in Resources */ = {isa = PBXBuildFile; fileRef = F71821691615C14D00C8F95B /* venues.txt */; };
+		F718216D1615C15D00C8F95B /* TFLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F718216C1615C15D00C8F95B /* TFLAppDelegate.m */; };
+		F71821701615C16F00C8F95B /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F718216F1615C16F00C8F95B /* EGORefreshTableHeaderView.m */; };
+		F71821731615C18000C8F95B /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F71821721615C18000C8F95B /* ProgressHUD.m */; };
+		F71821781615C18E00C8F95B /* CalloutMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F71821751615C18E00C8F95B /* CalloutMapAnnotation.m */; };
+		F71821791615C18E00C8F95B /* CalloutMapAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F71821771615C18E00C8F95B /* CalloutMapAnnotationView.m */; };
+		F71821871615C1D800C8F95B /* 4.0 Journey Planner.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F718217A1615C1D800C8F95B /* 4.0 Journey Planner.jpeg */; };
+		F71821881615C1D800C8F95B /* 4.1aJourney Planner .jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F718217B1615C1D800C8F95B /* 4.1aJourney Planner .jpeg */; };
+		F71821891615C1D800C8F95B /* 4.1bJourney Planner .jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F718217C1615C1D800C8F95B /* 4.1bJourney Planner .jpeg */; };
+		F718218A1615C1D800C8F95B /* 4.1cJourney Planner .jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F718217D1615C1D800C8F95B /* 4.1cJourney Planner .jpeg */; };
+		F718218B1615C1D800C8F95B /* 4.2 Choose Location Map.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F718217E1615C1D800C8F95B /* 4.2 Choose Location Map.jpeg */; };
+		F718218C1615C1D800C8F95B /* 4.3 Choose a Location List.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F718217F1615C1D800C8F95B /* 4.3 Choose a Location List.jpeg */; };
+		F718218D1615C1D800C8F95B /* 4.5 Choose a Route.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F71821801615C1D800C8F95B /* 4.5 Choose a Route.jpeg */; };
+		F718218E1615C1D800C8F95B /* 4.6 Route Summary.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F71821811615C1D800C8F95B /* 4.6 Route Summary.jpeg */; };
+		F718218F1615C1D800C8F95B /* 6.0 Departures.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F71821821615C1D800C8F95B /* 6.0 Departures.jpeg */; };
+		F71821901615C1D800C8F95B /* 6.1 Pick a tube Line.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F71821831615C1D800C8F95B /* 6.1 Pick a tube Line.jpeg */; };
+		F71821911615C1D800C8F95B /* 6.2 Departures List.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F71821841615C1D800C8F95B /* 6.2 Departures List.jpeg */; };
+		F71821921615C1D800C8F95B /* 6.3 Pick a Station.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F71821851615C1D800C8F95B /* 6.3 Pick a Station.jpeg */; };
+		F71821931615C1D800C8F95B /* tube status.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F71821861615C1D800C8F95B /* tube status.jpeg */; };
+		F71821951615C1EA00C8F95B /* TFL Android wireframes 0.2.2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F71821941615C1EA00C8F95B /* TFL Android wireframes 0.2.2.pdf */; };
+		F718219A1615C20200C8F95B /* CheckNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = F71821971615C20200C8F95B /* CheckNetwork.m */; };
+		F718219B1615C20200C8F95B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F71821991615C20200C8F95B /* Reachability.m */; };
+		F718219E1615C23B00C8F95B /* TFLData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F718219C1615C23B00C8F95B /* TFLData.xcdatamodeld */; };
+		F71822001615C27400C8F95B /* back_container.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821A11615C27400C8F95B /* back_container.png */; };
+		F71822011615C27400C8F95B /* back_container_divider.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821A21615C27400C8F95B /* back_container_divider.png */; };
+		F71822021615C27400C8F95B /* back_container_with_divider.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821A31615C27400C8F95B /* back_container_with_divider.png */; };
+		F71822031615C27400C8F95B /* cell_top_placeholder_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821A41615C27400C8F95B /* cell_top_placeholder_normal.png */; };
+		F71822041615C27400C8F95B /* cell_top_placeholder_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821A51615C27400C8F95B /* cell_top_placeholder_selected.png */; };
+		F71822051615C27400C8F95B /* icon_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821A61615C27400C8F95B /* icon_1.png */; };
+		F71822061615C27400C8F95B /* icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821A71615C27400C8F95B /* icon_2.png */; };
+		F71822071615C27400C8F95B /* icon_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821A81615C27400C8F95B /* icon_3.png */; };
+		F71822081615C27400C8F95B /* icon_4.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821A91615C27400C8F95B /* icon_4.png */; };
+		F71822091615C27400C8F95B /* icon_clock.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821AA1615C27400C8F95B /* icon_clock.png */; };
+		F718220A1615C27400C8F95B /* strip.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821AB1615C27400C8F95B /* strip.png */; };
+		F718220B1615C27400C8F95B /* strip_circle_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821AC1615C27400C8F95B /* strip_circle_normal.png */; };
+		F718220C1615C27400C8F95B /* strip_circle_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821AD1615C27400C8F95B /* strip_circle_pressed.png */; };
+		F718220D1615C27400C8F95B /* summary_cell_bottom_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821AE1615C27400C8F95B /* summary_cell_bottom_normal.png */; };
+		F718220E1615C27400C8F95B /* summary_cell_bottom_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821AF1615C27400C8F95B /* summary_cell_bottom_selected.png */; };
+		F718220F1615C27400C8F95B /* summary_cell_top_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821B01615C27400C8F95B /* summary_cell_top_normal.png */; };
+		F71822101615C27400C8F95B /* summary_cell_top_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821B11615C27400C8F95B /* summary_cell_top_selected.png */; };
+		F71822111615C27400C8F95B /* time_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821B21615C27400C8F95B /* time_bg.png */; };
+		F71822121615C27400C8F95B /* time_bg_dots.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821B31615C27400C8F95B /* time_bg_dots.png */; };
+		F71822131615C27400C8F95B /* time_bg_mask.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821B41615C27400C8F95B /* time_bg_mask.png */; };
+		F71822141615C27400C8F95B /* route_6.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821B61615C27400C8F95B /* route_6.png */; };
+		F71822151615C27400C8F95B /* route_100.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821B71615C27400C8F95B /* route_100.png */; };
+		F71822161615C27400C8F95B /* route_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821B81615C27400C8F95B /* route_2.png */; };
+		F71822171615C27400C8F95B /* route_5.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821B91615C27400C8F95B /* route_5.png */; };
+		F71822181615C27400C8F95B /* route_99.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821BA1615C27400C8F95B /* route_99.png */; };
+		F71822191615C27400C8F95B /* 480x800_Air_Quality_Forecast_Box_Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821BB1615C27400C8F95B /* 480x800_Air_Quality_Forecast_Box_Orange.png */; };
+		F718221A1615C27400C8F95B /* 480x800_FAQ_X.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821BC1615C27400C8F95B /* 480x800_FAQ_X.png */; };
+		F718221B1615C27400C8F95B /* arrow_1_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821BD1615C27400C8F95B /* arrow_1_normal.png */; };
+		F718221C1615C27400C8F95B /* arrow_1_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821BE1615C27400C8F95B /* arrow_1_pressed.png */; };
+		F718221D1615C27400C8F95B /* arrow_2_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821BF1615C27400C8F95B /* arrow_2_normal.png */; };
+		F718221E1615C27400C8F95B /* arrow_2_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821C01615C27400C8F95B /* arrow_2_pressed.png */; };
+		F71822221615C27400C8F95B /* bottom_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821C41615C27400C8F95B /* bottom_bar.png */; };
+		F71822231615C27400C8F95B /* btn_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821C51615C27400C8F95B /* btn_bg.png */; };
+		F71822241615C27400C8F95B /* btn_find_green_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821C61615C27400C8F95B /* btn_find_green_normal.png */; };
+		F71822251615C27400C8F95B /* btn_find_green_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821C71615C27400C8F95B /* btn_find_green_pressed.png */; };
+		F71822261615C27400C8F95B /* btn_find_red_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821C81615C27400C8F95B /* btn_find_red_normal.png */; };
+		F71822271615C27400C8F95B /* btn_find_red.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821C91615C27400C8F95B /* btn_find_red.png */; };
+		F71822281615C27400C8F95B /* btn_list_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821CA1615C27400C8F95B /* btn_list_normal.png */; };
+		F71822291615C27400C8F95B /* btn_list_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821CB1615C27400C8F95B /* btn_list_pressed.png */; };
+		F718222A1615C27400C8F95B /* btn_map_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821CC1615C27400C8F95B /* btn_map_normal.png */; };
+		F718222B1615C27400C8F95B /* btn_map_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821CD1615C27400C8F95B /* btn_map_pressed.png */; };
+		F718222C1615C27400C8F95B /* btn_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821CE1615C27400C8F95B /* btn_normal.png */; };
+		F718222D1615C27400C8F95B /* btn_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821CF1615C27400C8F95B /* btn_pressed.png */; };
+		F718222E1615C27400C8F95B /* btn_search_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821D01615C27400C8F95B /* btn_search_normal.png */; };
+		F718222F1615C27400C8F95B /* btn_searchbox_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821D11615C27400C8F95B /* btn_searchbox_normal.png */; };
+		F71822301615C27400C8F95B /* cell_bottom_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821D21615C27400C8F95B /* cell_bottom_normal.png */; };
+		F71822311615C27400C8F95B /* cell_bottom_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821D31615C27400C8F95B /* cell_bottom_pressed.png */; };
+		F71822321615C27400C8F95B /* cell_single_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821D41615C27400C8F95B /* cell_single_normal.png */; };
+		F71822331615C27400C8F95B /* cell_single_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821D51615C27400C8F95B /* cell_single_pressed.png */; };
+		F71822341615C27400C8F95B /* cell_top_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821D61615C27400C8F95B /* cell_top_normal.png */; };
+		F71822351615C27400C8F95B /* cell_top_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821D71615C27400C8F95B /* cell_top_pressed.png */; };
+		F71822361615C27400C8F95B /* color_border.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821D81615C27400C8F95B /* color_border.png */; };
+		F71822371615C27400C8F95B /* DLR.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821D91615C27400C8F95B /* DLR.png */; };
+		F71822381615C27400C8F95B /* Good service.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821DA1615C27400C8F95B /* Good service.png */; };
+		F71822391615C27400C8F95B /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821DB1615C27400C8F95B /* header.png */; };
+		F718223A1615C27400C8F95B /* icon_1_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821DC1615C27400C8F95B /* icon_1_normal.png */; };
+		F718223B1615C27400C8F95B /* icon_1_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821DD1615C27400C8F95B /* icon_1_selected.png */; };
+		F718223D1615C27400C8F95B /* icon_2_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821DF1615C27400C8F95B /* icon_2_normal.png */; };
+		F718223E1615C27400C8F95B /* icon_2_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821E01615C27400C8F95B /* icon_2_selected.png */; };
+		F71822401615C27400C8F95B /* icon_3_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821E21615C27400C8F95B /* icon_3_normal.png */; };
+		F71822411615C27400C8F95B /* icon_3_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821E31615C27400C8F95B /* icon_3_selected.png */; };
+		F71822451615C27400C8F95B /* location_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821E71615C27400C8F95B /* location_pin.png */; };
+		F71822461615C27400C8F95B /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821E81615C27400C8F95B /* message.png */; };
+		F71822471615C27400C8F95B /* Minor Delays.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821E91615C27400C8F95B /* Minor Delays.png */; };
+		F71822481615C27400C8F95B /* Part closure.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821EA1615C27400C8F95B /* Part closure.png */; };
+		F71822491615C27400C8F95B /* pin_with_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821EB1615C27400C8F95B /* pin_with_shadow.png */; };
+		F718224A1615C27400C8F95B /* pin_without_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821EC1615C27400C8F95B /* pin_without_shadow.png */; };
+		F718224B1615C27400C8F95B /* Planned closure.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821ED1615C27400C8F95B /* Planned closure.png */; };
+		F718224C1615C27400C8F95B /* radio_active.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821EE1615C27400C8F95B /* radio_active.png */; };
+		F718224D1615C27400C8F95B /* radio_deactive.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821EF1615C27400C8F95B /* radio_deactive.png */; };
+		F718224E1615C27400C8F95B /* refresh_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821F01615C27400C8F95B /* refresh_arrow.png */; };
+		F718224F1615C27400C8F95B /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821F11615C27400C8F95B /* refresh.png */; };
+		F71822501615C27400C8F95B /* search_box_with_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821F21615C27400C8F95B /* search_box_with_icon.png */; };
+		F71822511615C27400C8F95B /* Solid_white.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821F31615C27400C8F95B /* Solid_white.png */; };
+		F71822531615C27400C8F95B /* tab_bottom_line.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821F51615C27400C8F95B /* tab_bottom_line.png */; };
+		F71822571615C27400C8F95B /* tool_tip_btn_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821F91615C27400C8F95B /* tool_tip_btn_normal.png */; };
+		F71822581615C27400C8F95B /* tool_tip_btn_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821FA1615C27400C8F95B /* tool_tip_btn_pressed.png */; };
+		F71822591615C27400C8F95B /* tool_tip_icon_home.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821FB1615C27400C8F95B /* tool_tip_icon_home.png */; };
+		F718225A1615C27400C8F95B /* tool_tip_with_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821FC1615C27400C8F95B /* tool_tip_with_shadow.png */; };
+		F718225B1615C27400C8F95B /* tool_tip.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821FD1615C27400C8F95B /* tool_tip.png */; };
+		F718225C1615C27400C8F95B /* top_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821FE1615C27400C8F95B /* top_bg.png */; };
+		F718225D1615C27400C8F95B /* Underground.png in Resources */ = {isa = PBXBuildFile; fileRef = F71821FF1615C27400C8F95B /* Underground.png */; };
+		F71CC07615F74C68009984B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71CC07515F74C68009984B8 /* UIKit.framework */; };
+		F71CC07815F74C68009984B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71CC07715F74C68009984B8 /* Foundation.framework */; };
+		F71CC07A15F74C68009984B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71CC07915F74C68009984B8 /* CoreGraphics.framework */; };
+		F71CC08015F74C68009984B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F71CC07E15F74C68009984B8 /* InfoPlist.strings */; };
+		F71CC08215F74C68009984B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F71CC08115F74C68009984B8 /* main.m */; };
+		F71CC08915F74C68009984B8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71CC08715F74C68009984B8 /* MainStoryboard.storyboard */; };
+		F71CC09E15F74E5E009984B8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71CC09D15F74E5E009984B8 /* MapKit.framework */; };
+		F71CC0A015F74E8D009984B8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71CC09F15F74E8D009984B8 /* CoreLocation.framework */; };
+		F73A74731622E096000D7062 /* TFLDepartureDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F73A74721622E096000D7062 /* TFLDepartureDetailModel.m */; };
+		F73A74751622E0B1000D7062 /* Project Plan Status.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F73A74741622E0B1000D7062 /* Project Plan Status.pdf */; };
+		F73A74791622E0EE000D7062 /* arrow_left_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F73A74761622E0EE000D7062 /* arrow_left_normal.png */; };
+		F73A747A1622E0EE000D7062 /* arrow_right_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F73A74771622E0EE000D7062 /* arrow_right_normal.png */; };
+		F73A747B1622E0EE000D7062 /* arrowIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F73A74781622E0EE000D7062 /* arrowIcon.png */; };
+		F73A747D1622E10C000D7062 /* tab_deactive.png in Resources */ = {isa = PBXBuildFile; fileRef = F73A747C1622E10C000D7062 /* tab_deactive.png */; };
+		F73A747F1622E113000D7062 /* tab_active.png in Resources */ = {isa = PBXBuildFile; fileRef = F73A747E1622E113000D7062 /* tab_active.png */; };
+		F74CC2A81600812900FA9850 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74CC2A71600812900FA9850 /* QuartzCore.framework */; };
+		F752B9011612F8A300878F8C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F752B9001612F8A200878F8C /* SystemConfiguration.framework */; };
+		F75364DB162581070084F0CE /* route_0.png in Resources */ = {isa = PBXBuildFile; fileRef = F75364DA162581060084F0CE /* route_0.png */; };
+		F75DF8FE16281E29008A2BC2 /* TFL-Architecture.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F75DF8FD16281E29008A2BC2 /* TFL-Architecture.pdf */; };
+		F75DF90F162821CD008A2BC2 /* Departure View Controller.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F75DF90A162821CD008A2BC2 /* Departure View Controller.pdf */; };
+		F75DF910162821CD008A2BC2 /* PlannerViewController.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F75DF90B162821CD008A2BC2 /* PlannerViewController.pdf */; };
+		F75DF911162821CD008A2BC2 /* Preferences View Controller.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F75DF90C162821CD008A2BC2 /* Preferences View Controller.pdf */; };
+		F75DF912162821CD008A2BC2 /* Routes View Controller.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F75DF90D162821CD008A2BC2 /* Routes View Controller.pdf */; };
+		F75DF913162821CD008A2BC2 /* Tube Status View Controller.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F75DF90E162821CD008A2BC2 /* Tube Status View Controller.pdf */; };
+		F7934BDB1627E14500DCDDF6 /* TFLDisplayPreferencesOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F718212F1615BFBA00C8F95B /* TFLDisplayPreferencesOptionsViewController.m */; };
+		F7A8F04415F9D50B00C6FCC7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8F04315F9D50B00C6FCC7 /* CoreData.framework */; };
+		F7AF21171626DB79005C7709 /* route_7.png in Resources */ = {isa = PBXBuildFile; fileRef = F7AF21151626DB79005C7709 /* route_7.png */; };
+		F7AF21181626DB79005C7709 /* route_4.png in Resources */ = {isa = PBXBuildFile; fileRef = F7AF21161626DB79005C7709 /* route_4.png */; };
+		F7AF211B1626E13E005C7709 /* route_107.png in Resources */ = {isa = PBXBuildFile; fileRef = F7AF211A1626E13D005C7709 /* route_107.png */; };
+		F7CF6FD0161F1B1F005F4867 /* transport-for-london.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7CF6FCF161F1B1F005F4867 /* transport-for-london.jpg */; };
+		F7CF6FD3161F1D79005F4867 /* pickAnOptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CF6FD5161F1D79005F4867 /* pickAnOptionViewController.m */; };
+		F7CF6FD6161F1D7D005F4867 /* TFLPlannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CF6FD8161F1D7D005F4867 /* TFLPlannerViewController.m */; };
+		F7CF6FE0161F1F41005F4867 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7CF6FE2161F1F41005F4867 /* Localization.strings */; };
+		F7D7D031161C2E1700E4FED0 /* Station Maintenance.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D7D030161C2E1700E4FED0 /* Station Maintenance.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F71821201615BF1300C8F95B /* TFL-ProjectPlan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "TFL-ProjectPlan.pdf"; path = "Architecture/Project Plan/TFL-ProjectPlan.pdf"; sourceTree = "<group>"; };
+		F71821221615BF7100C8F95B /* TFLPlannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFLPlannerViewController.h; path = Code/Project/TFL/TFL/Controllers/TFLPlannerViewControllers/TFLPlannerViewController/TFLPlannerViewController.h; sourceTree = "<group>"; };
+		F71821251615BF8300C8F95B /* TFLRoutesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFLRoutesViewController.h; path = Code/Project/TFL/TFL/Controllers/TFLPlannerViewControllers/TFLRoutesViewController/TFLRoutesViewController.h; sourceTree = "<group>"; };
+		F71821261615BF8300C8F95B /* TFLRoutesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFLRoutesViewController.m; path = Code/Project/TFL/TFL/Controllers/TFLPlannerViewControllers/TFLRoutesViewController/TFLRoutesViewController.m; sourceTree = "<group>"; };
+		F71821281615BF9100C8F95B /* TFLDetailRoutesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFLDetailRoutesViewController.h; path = Code/Project/TFL/TFL/Controllers/TFLPlannerViewControllers/TFLDetailRoutesViewController/TFLDetailRoutesViewController.h; sourceTree = "<group>"; };
+		F71821291615BF9100C8F95B /* TFLDetailRoutesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFLDetailRoutesViewController.m; path = Code/Project/TFL/TFL/Controllers/TFLPlannerViewControllers/TFLDetailRoutesViewController/TFLDetailRoutesViewController.m; sourceTree = "<group>"; };
+		F718212B1615BFA200C8F95B /* TFLPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFLPreferencesViewController.h; path = Code/Project/TFL/TFL/Controllers/TFLPlannerViewControllers/TFLPreferencesViewController/TFLPreferencesViewController.h; sourceTree = "<group>"; };
+		F718212C1615BFA200C8F95B /* TFLPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFLPreferencesViewController.m; path = Code/Project/TFL/TFL/Controllers/TFLPlannerViewControllers/TFLPreferencesViewController/TFLPreferencesViewController.m; sourceTree = "<group>"; };
+		F718212E1615BFBA00C8F95B /* TFLDisplayPreferencesOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFLDisplayPreferencesOptionsViewController.h; path = Code/Project/TFL/TFL/Controllers/TFLPlannerViewControllers/TFLDisplayPreferencesViewController/TFLDisplayPreferencesOptionsViewController.h; sourceTree = "<group>"; };
+		F718212F1615BFBA00C8F95B /* TFLDisplayPreferencesOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFLDisplayPreferencesOptionsViewController.m; path = Code/Project/TFL/TFL/Controllers/TFLPlannerViewControllers/TFLDisplayPreferencesViewController/TFLDisplayPreferencesOptionsViewController.m; sourceTree = "<group>"; };
+		F71821311615BFD200C8F95B /* TFLTubeStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFLTubeStatusViewController.h; path = "Code/Project/TFL/TFL/Controllers/TFLTubeStatus View Controller/TFLTubeStatusViewController.h"; sourceTree = "<group>"; };
+		F71821321615BFD200C8F95B /* TFLTubeStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFLTubeStatusViewController.m; path = "Code/Project/TFL/TFL/Controllers/TFLTubeStatus View Controller/TFLTubeStatusViewController.m"; sourceTree = "<group>"; };
+		F71821341615BFE500C8F95B /* DepartureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DepartureViewController.h; path = "Code/Project/TFL/TFL/Controllers/TFLDepartures View Controllers/TFLDepartureViewController/DepartureViewController.h"; sourceTree = "<group>"; };
+		F71821351615BFE500C8F95B /* DepartureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DepartureViewController.m; path = "Code/Project/TFL/TFL/Controllers/TFLDepartures View Controllers/TFLDepartureViewController/DepartureViewController.m"; sourceTree = "<group>"; };
+		F71821371615BFF400C8F95B /* DepartureDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DepartureDetailViewController.h; path = "Code/Project/TFL/TFL/Controllers/TFLDepartures View Controllers/TFLDepartureDetailViewController/DepartureDetailViewController.h"; sourceTree = "<group>"; };
+		F71821381615BFF400C8F95B /* DepartureDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DepartureDetailViewController.m; path = "Code/Project/TFL/TFL/Controllers/TFLDepartures View Controllers/TFLDepartureDetailViewController/DepartureDetailViewController.m"; sourceTree = "<group>"; };
+		F718213A1615C00200C8F95B /* DLRDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLRDetailViewController.h; path = "Code/Project/TFL/TFL/Controllers/TFLDepartures View Controllers/TFLDLRDetailViewController/DLRDetailViewController.h"; sourceTree = "<group>"; };
+		F718213B1615C00200C8F95B /* DLRDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLRDetailViewController.m; path = "Code/Project/TFL/TFL/Controllers/TFLDepartures View Controllers/TFLDLRDetailViewController/DLRDetailViewController.m"; sourceTree = "<group>"; };
+		F718213D1615C01000C8F95B /* pickAnOptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pickAnOptionViewController.h; path = "Code/Project/TFL/TFL/Controllers/TFLDepartures View Controllers/TFLPickAnOptionViewController/pickAnOptionViewController.h"; sourceTree = "<group>"; };
+		F71821401615C02900C8F95B /* TFLRoutesAnnotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFLRoutesAnnotations.h; path = Code/Project/TFL/TFL/Model/TFLRoutesAnnotations/TFLRoutesAnnotations.h; sourceTree = "<group>"; };
+		F71821411615C02900C8F95B /* TFLRoutesAnnotations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFLRoutesAnnotations.m; path = Code/Project/TFL/TFL/Model/TFLRoutesAnnotations/TFLRoutesAnnotations.m; sourceTree = "<group>"; };
+		F71821431615C03800C8F95B /* TFLTubeStatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFLTubeStatusModel.h; path = Code/Project/TFL/TFL/Model/TFLTubeStatusModel/TFLTubeStatusModel.h; sourceTree = "<group>"; };
+		F71821441615C03800C8F95B /* TFLTubeStatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFLTubeStatusModel.m; path = Code/Project/TFL/TFL/Model/TFLTubeStatusModel/TFLTubeStatusModel.m; sourceTree = "<group>"; };
+		F71821461615C04600C8F95B /* stationCodesFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stationCodesFetcher.h; path = Code/Project/TFL/TFL/Model/TFLStationCodesFetcherModel/stationCodesFetcher.h; sourceTree = "<group>"; };
+		F71821471615C04600C8F95B /* stationCodesFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = stationCodesFetcher.m; path = Code/Project/TFL/TFL/Model/TFLStationCodesFetcherModel/stationCodesFetcher.m; sourceTree = "<group>"; };
+		F71821491615C05400C8F95B /* TFLSearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFLSearchModel.h; path = Code/Project/TFL/TFL/Model/TFLSearchModel/TFLSearchModel.h; sourceTree = "<group>"; };
+		F718214A1615C05400C8F95B /* TFLSearchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFLSearchModel.m; path = Code/Project/TFL/TFL/Model/TFLSearchModel/TFLSearchModel.m; sourceTree = "<group>"; };
+		F718214C1615C06500C8F95B /* placesAnnotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = placesAnnotations.h; path = Code/Project/TFL/TFL/Model/TFLPlacesAnnotations/placesAnnotations.h; sourceTree = "<group>"; };
+		F718214D1615C06500C8F95B /* placesAnnotations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = placesAnnotations.m; path = Code/Project/TFL/TFL/Model/TFLPlacesAnnotations/placesAnnotations.m; sourceTree = "<group>"; };
+		F718214F1615C07E00C8F95B /* PlacesFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlacesFetcher.h; path = Code/Project/TFL/TFL/Model/TFLPlacesFetcherModel/PlacesFetcher.h; sourceTree = "<group>"; };
+		F71821501615C07E00C8F95B /* PlacesFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlacesFetcher.m; path = Code/Project/TFL/TFL/Model/TFLPlacesFetcherModel/PlacesFetcher.m; sourceTree = "<group>"; };
+		F71821521615C0A400C8F95B /* TubeStatusCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TubeStatusCustomCell.h; path = Code/Project/TFL/TFL/Views/TFLTubeStatusCustomCell/TubeStatusCustomCell.h; sourceTree = "<group>"; };
+		F71821531615C0A400C8F95B /* TubeStatusCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TubeStatusCustomCell.m; path = Code/Project/TFL/TFL/Views/TFLTubeStatusCustomCell/TubeStatusCustomCell.m; sourceTree = "<group>"; };
+		F71821551615C0B300C8F95B /* DepartureCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DepartureCustomCell.h; path = Code/Project/TFL/TFL/Views/TFLDepartureCustomCell/DepartureCustomCell.h; sourceTree = "<group>"; };
+		F71821561615C0B300C8F95B /* DepartureCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DepartureCustomCell.m; path = Code/Project/TFL/TFL/Views/TFLDepartureCustomCell/DepartureCustomCell.m; sourceTree = "<group>"; };
+		F71821581615C0C200C8F95B /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircleView.h; path = Code/Project/TFL/TFL/Views/TFLCustomCircleView/CircleView.h; sourceTree = "<group>"; };
+		F71821591615C0C200C8F95B /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CircleView.m; path = Code/Project/TFL/TFL/Views/TFLCustomCircleView/CircleView.m; sourceTree = "<group>"; };
+		F718215B1615C0D000C8F95B /* RoutesDisplayCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoutesDisplayCustomCell.h; path = Code/Project/TFL/TFL/Views/TFLRoutesDisplayCustomCell/RoutesDisplayCustomCell.h; sourceTree = "<group>"; };
+		F718215C1615C0D000C8F95B /* RoutesDisplayCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoutesDisplayCustomCell.m; path = Code/Project/TFL/TFL/Views/TFLRoutesDisplayCustomCell/RoutesDisplayCustomCell.m; sourceTree = "<group>"; };
+		F718215E1615C0DF00C8F95B /* RouteSummaryCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RouteSummaryCustomCell.h; path = Code/Project/TFL/TFL/Views/TFLRouteSummaryCustomCell/RouteSummaryCustomCell.h; sourceTree = "<group>"; };
+		F718215F1615C0DF00C8F95B /* RouteSummaryCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RouteSummaryCustomCell.m; path = Code/Project/TFL/TFL/Views/TFLRouteSummaryCustomCell/RouteSummaryCustomCell.m; sourceTree = "<group>"; };
+		F71821611615C10C00C8F95B /* POI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = POI.h; path = "Code/Project/TFL/TFL/CoreData Model/TFLPlacesOfInterest/POI.h"; sourceTree = "<group>"; };
+		F71821621615C10C00C8F95B /* POI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = POI.m; path = "Code/Project/TFL/TFL/CoreData Model/TFLPlacesOfInterest/POI.m"; sourceTree = "<group>"; };
+		F71821641615C11900C8F95B /* Stations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stations.h; path = "Code/Project/TFL/TFL/CoreData Model/TFLStations/Stations.h"; sourceTree = "<group>"; };
+		F71821651615C11900C8F95B /* Stations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stations.m; path = "Code/Project/TFL/TFL/CoreData Model/TFLStations/Stations.m"; sourceTree = "<group>"; };
+		F71821671615C14100C8F95B /* Stations.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Stations.txt; path = Code/Project/TFL/TFL/Database/TFLTubeStations/Stations.txt; sourceTree = "<group>"; };
+		F71821691615C14D00C8F95B /* venues.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = venues.txt; path = Code/Project/TFL/TFL/Database/TFLPlaceOfInterest/venues.txt; sourceTree = "<group>"; };
+		F718216B1615C15D00C8F95B /* TFLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFLAppDelegate.h; path = "Code/Project/TFL/TFL/TFLApp Delegate/TFLAppDelegate.h"; sourceTree = "<group>"; };
+		F718216C1615C15D00C8F95B /* TFLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFLAppDelegate.m; path = "Code/Project/TFL/TFL/TFLApp Delegate/TFLAppDelegate.m"; sourceTree = "<group>"; };
+		F718216E1615C16F00C8F95B /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGORefreshTableHeaderView.h; path = "Code/Project/TFL/TFL/Third Party/Pull Down To Refresh/EGORefreshTableHeaderView.h"; sourceTree = "<group>"; };
+		F718216F1615C16F00C8F95B /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGORefreshTableHeaderView.m; path = "Code/Project/TFL/TFL/Third Party/Pull Down To Refresh/EGORefreshTableHeaderView.m"; sourceTree = "<group>"; };
+		F71821711615C18000C8F95B /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressHUD.h; path = "Code/Project/TFL/TFL/Third Party/Progress HUD/ProgressHUD.h"; sourceTree = "<group>"; };
+		F71821721615C18000C8F95B /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressHUD.m; path = "Code/Project/TFL/TFL/Third Party/Progress HUD/ProgressHUD.m"; sourceTree = "<group>"; };
+		F71821741615C18E00C8F95B /* CalloutMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalloutMapAnnotation.h; path = "Code/Project/TFL/TFL/Third Party/Custom Map Annotation View/CalloutMapAnnotation.h"; sourceTree = "<group>"; };
+		F71821751615C18E00C8F95B /* CalloutMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalloutMapAnnotation.m; path = "Code/Project/TFL/TFL/Third Party/Custom Map Annotation View/CalloutMapAnnotation.m"; sourceTree = "<group>"; };
+		F71821761615C18E00C8F95B /* CalloutMapAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalloutMapAnnotationView.h; path = "Code/Project/TFL/TFL/Third Party/Custom Map Annotation View/CalloutMapAnnotationView.h"; sourceTree = "<group>"; };
+		F71821771615C18E00C8F95B /* CalloutMapAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalloutMapAnnotationView.m; path = "Code/Project/TFL/TFL/Third Party/Custom Map Annotation View/CalloutMapAnnotationView.m"; sourceTree = "<group>"; };
+		F718217A1615C1D800C8F95B /* 4.0 Journey Planner.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "4.0 Journey Planner.jpeg"; path = "TFL/Design/specs/mockups/4.0 Journey Planner.jpeg"; sourceTree = SOURCE_ROOT; };
+		F718217B1615C1D800C8F95B /* 4.1aJourney Planner .jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "4.1aJourney Planner .jpeg"; path = "TFL/Design/specs/mockups/4.1aJourney Planner .jpeg"; sourceTree = SOURCE_ROOT; };
+		F718217C1615C1D800C8F95B /* 4.1bJourney Planner .jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "4.1bJourney Planner .jpeg"; path = "TFL/Design/specs/mockups/4.1bJourney Planner .jpeg"; sourceTree = SOURCE_ROOT; };
+		F718217D1615C1D800C8F95B /* 4.1cJourney Planner .jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "4.1cJourney Planner .jpeg"; path = "TFL/Design/specs/mockups/4.1cJourney Planner .jpeg"; sourceTree = SOURCE_ROOT; };
+		F718217E1615C1D800C8F95B /* 4.2 Choose Location Map.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "4.2 Choose Location Map.jpeg"; path = "TFL/Design/specs/mockups/4.2 Choose Location Map.jpeg"; sourceTree = SOURCE_ROOT; };
+		F718217F1615C1D800C8F95B /* 4.3 Choose a Location List.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "4.3 Choose a Location List.jpeg"; path = "TFL/Design/specs/mockups/4.3 Choose a Location List.jpeg"; sourceTree = SOURCE_ROOT; };
+		F71821801615C1D800C8F95B /* 4.5 Choose a Route.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "4.5 Choose a Route.jpeg"; path = "TFL/Design/specs/mockups/4.5 Choose a Route.jpeg"; sourceTree = SOURCE_ROOT; };
+		F71821811615C1D800C8F95B /* 4.6 Route Summary.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "4.6 Route Summary.jpeg"; path = "TFL/Design/specs/mockups/4.6 Route Summary.jpeg"; sourceTree = SOURCE_ROOT; };
+		F71821821615C1D800C8F95B /* 6.0 Departures.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "6.0 Departures.jpeg"; path = "TFL/Design/specs/mockups/6.0 Departures.jpeg"; sourceTree = SOURCE_ROOT; };
+		F71821831615C1D800C8F95B /* 6.1 Pick a tube Line.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "6.1 Pick a tube Line.jpeg"; path = "TFL/Design/specs/mockups/6.1 Pick a tube Line.jpeg"; sourceTree = SOURCE_ROOT; };
+		F71821841615C1D800C8F95B /* 6.2 Departures List.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "6.2 Departures List.jpeg"; path = "TFL/Design/specs/mockups/6.2 Departures List.jpeg"; sourceTree = SOURCE_ROOT; };
+		F71821851615C1D800C8F95B /* 6.3 Pick a Station.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "6.3 Pick a Station.jpeg"; path = "TFL/Design/specs/mockups/6.3 Pick a Station.jpeg"; sourceTree = SOURCE_ROOT; };
+		F71821861615C1D800C8F95B /* tube status.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tube status.jpeg"; path = "TFL/Design/specs/mockups/tube status.jpeg"; sourceTree = SOURCE_ROOT; };
+		F71821941615C1EA00C8F95B /* TFL Android wireframes 0.2.2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "TFL Android wireframes 0.2.2.pdf"; path = "TFL/Design/wireframe/TFL Android wireframes 0.2.2.pdf"; sourceTree = SOURCE_ROOT; };
+		F71821961615C20200C8F95B /* CheckNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CheckNetwork.h; path = "Misc/TFL Reachability/CheckNetwork.h"; sourceTree = "<group>"; };
+		F71821971615C20200C8F95B /* CheckNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CheckNetwork.m; path = "Misc/TFL Reachability/CheckNetwork.m"; sourceTree = "<group>"; };
+		F71821981615C20200C8F95B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "Misc/TFL Reachability/Reachability.h"; sourceTree = "<group>"; };
+		F71821991615C20200C8F95B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "Misc/TFL Reachability/Reachability.m"; sourceTree = "<group>"; };
+		F718219D1615C23B00C8F95B /* TFLData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TFLData.xcdatamodel; sourceTree = "<group>"; };
+		F71821A11615C27400C8F95B /* back_container.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_container.png; sourceTree = "<group>"; };
+		F71821A21615C27400C8F95B /* back_container_divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_container_divider.png; sourceTree = "<group>"; };
+		F71821A31615C27400C8F95B /* back_container_with_divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_container_with_divider.png; sourceTree = "<group>"; };
+		F71821A41615C27400C8F95B /* cell_top_placeholder_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_top_placeholder_normal.png; sourceTree = "<group>"; };
+		F71821A51615C27400C8F95B /* cell_top_placeholder_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_top_placeholder_selected.png; sourceTree = "<group>"; };
+		F71821A61615C27400C8F95B /* icon_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_1.png; sourceTree = "<group>"; };
+		F71821A71615C27400C8F95B /* icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_2.png; sourceTree = "<group>"; };
+		F71821A81615C27400C8F95B /* icon_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_3.png; sourceTree = "<group>"; };
+		F71821A91615C27400C8F95B /* icon_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_4.png; sourceTree = "<group>"; };
+		F71821AA1615C27400C8F95B /* icon_clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_clock.png; sourceTree = "<group>"; };
+		F71821AB1615C27400C8F95B /* strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strip.png; sourceTree = "<group>"; };
+		F71821AC1615C27400C8F95B /* strip_circle_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strip_circle_normal.png; sourceTree = "<group>"; };
+		F71821AD1615C27400C8F95B /* strip_circle_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strip_circle_pressed.png; sourceTree = "<group>"; };
+		F71821AE1615C27400C8F95B /* summary_cell_bottom_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summary_cell_bottom_normal.png; sourceTree = "<group>"; };
+		F71821AF1615C27400C8F95B /* summary_cell_bottom_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summary_cell_bottom_selected.png; sourceTree = "<group>"; };
+		F71821B01615C27400C8F95B /* summary_cell_top_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summary_cell_top_normal.png; sourceTree = "<group>"; };
+		F71821B11615C27400C8F95B /* summary_cell_top_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summary_cell_top_selected.png; sourceTree = "<group>"; };
+		F71821B21615C27400C8F95B /* time_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time_bg.png; sourceTree = "<group>"; };
+		F71821B31615C27400C8F95B /* time_bg_dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time_bg_dots.png; sourceTree = "<group>"; };
+		F71821B41615C27400C8F95B /* time_bg_mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time_bg_mask.png; sourceTree = "<group>"; };
+		F71821B61615C27400C8F95B /* route_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = route_6.png; sourceTree = "<group>"; };
+		F71821B71615C27400C8F95B /* route_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = route_100.png; sourceTree = "<group>"; };
+		F71821B81615C27400C8F95B /* route_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = route_2.png; sourceTree = "<group>"; };
+		F71821B91615C27400C8F95B /* route_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = route_5.png; sourceTree = "<group>"; };
+		F71821BA1615C27400C8F95B /* route_99.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = route_99.png; sourceTree = "<group>"; };
+		F71821BB1615C27400C8F95B /* 480x800_Air_Quality_Forecast_Box_Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 480x800_Air_Quality_Forecast_Box_Orange.png; path = Code/Project/TFL/TFL/Resources/Images/480x800_Air_Quality_Forecast_Box_Orange.png; sourceTree = "<group>"; };
+		F71821BC1615C27400C8F95B /* 480x800_FAQ_X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 480x800_FAQ_X.png; path = Code/Project/TFL/TFL/Resources/Images/480x800_FAQ_X.png; sourceTree = "<group>"; };
+		F71821BD1615C27400C8F95B /* arrow_1_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_1_normal.png; path = Code/Project/TFL/TFL/Resources/Images/arrow_1_normal.png; sourceTree = "<group>"; };
+		F71821BE1615C27400C8F95B /* arrow_1_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_1_pressed.png; path = Code/Project/TFL/TFL/Resources/Images/arrow_1_pressed.png; sourceTree = "<group>"; };
+		F71821BF1615C27400C8F95B /* arrow_2_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_2_normal.png; path = Code/Project/TFL/TFL/Resources/Images/arrow_2_normal.png; sourceTree = "<group>"; };
+		F71821C01615C27400C8F95B /* arrow_2_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_2_pressed.png; path = Code/Project/TFL/TFL/Resources/Images/arrow_2_pressed.png; sourceTree = "<group>"; };
+		F71821C41615C27400C8F95B /* bottom_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_bar.png; path = Code/Project/TFL/TFL/Resources/Images/bottom_bar.png; sourceTree = "<group>"; };
+		F71821C51615C27400C8F95B /* btn_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_bg.png; path = Code/Project/TFL/TFL/Resources/Images/btn_bg.png; sourceTree = "<group>"; };
+		F71821C61615C27400C8F95B /* btn_find_green_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_find_green_normal.png; path = Code/Project/TFL/TFL/Resources/Images/btn_find_green_normal.png; sourceTree = "<group>"; };
+		F71821C71615C27400C8F95B /* btn_find_green_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_find_green_pressed.png; path = Code/Project/TFL/TFL/Resources/Images/btn_find_green_pressed.png; sourceTree = "<group>"; };
+		F71821C81615C27400C8F95B /* btn_find_red_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_find_red_normal.png; path = Code/Project/TFL/TFL/Resources/Images/btn_find_red_normal.png; sourceTree = "<group>"; };
+		F71821C91615C27400C8F95B /* btn_find_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_find_red.png; path = Code/Project/TFL/TFL/Resources/Images/btn_find_red.png; sourceTree = "<group>"; };
+		F71821CA1615C27400C8F95B /* btn_list_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_list_normal.png; path = Code/Project/TFL/TFL/Resources/Images/btn_list_normal.png; sourceTree = "<group>"; };
+		F71821CB1615C27400C8F95B /* btn_list_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_list_pressed.png; path = Code/Project/TFL/TFL/Resources/Images/btn_list_pressed.png; sourceTree = "<group>"; };
+		F71821CC1615C27400C8F95B /* btn_map_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_map_normal.png; path = Code/Project/TFL/TFL/Resources/Images/btn_map_normal.png; sourceTree = "<group>"; };
+		F71821CD1615C27400C8F95B /* btn_map_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_map_pressed.png; path = Code/Project/TFL/TFL/Resources/Images/btn_map_pressed.png; sourceTree = "<group>"; };
+		F71821CE1615C27400C8F95B /* btn_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_normal.png; path = Code/Project/TFL/TFL/Resources/Images/btn_normal.png; sourceTree = "<group>"; };
+		F71821CF1615C27400C8F95B /* btn_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_pressed.png; path = Code/Project/TFL/TFL/Resources/Images/btn_pressed.png; sourceTree = "<group>"; };
+		F71821D01615C27400C8F95B /* btn_search_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_search_normal.png; path = Code/Project/TFL/TFL/Resources/Images/btn_search_normal.png; sourceTree = "<group>"; };
+		F71821D11615C27400C8F95B /* btn_searchbox_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_searchbox_normal.png; path = Code/Project/TFL/TFL/Resources/Images/btn_searchbox_normal.png; sourceTree = "<group>"; };
+		F71821D21615C27400C8F95B /* cell_bottom_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_bottom_normal.png; path = Code/Project/TFL/TFL/Resources/Images/cell_bottom_normal.png; sourceTree = "<group>"; };
+		F71821D31615C27400C8F95B /* cell_bottom_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_bottom_pressed.png; path = Code/Project/TFL/TFL/Resources/Images/cell_bottom_pressed.png; sourceTree = "<group>"; };
+		F71821D41615C27400C8F95B /* cell_single_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_single_normal.png; path = Code/Project/TFL/TFL/Resources/Images/cell_single_normal.png; sourceTree = "<group>"; };
+		F71821D51615C27400C8F95B /* cell_single_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_single_pressed.png; path = Code/Project/TFL/TFL/Resources/Images/cell_single_pressed.png; sourceTree = "<group>"; };
+		F71821D61615C27400C8F95B /* cell_top_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_top_normal.png; path = Code/Project/TFL/TFL/Resources/Images/cell_top_normal.png; sourceTree = "<group>"; };
+		F71821D71615C27400C8F95B /* cell_top_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_top_pressed.png; path = Code/Project/TFL/TFL/Resources/Images/cell_top_pressed.png; sourceTree = "<group>"; };
+		F71821D81615C27400C8F95B /* color_border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = color_border.png; path = Code/Project/TFL/TFL/Resources/Images/color_border.png; sourceTree = "<group>"; };
+		F71821D91615C27400C8F95B /* DLR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DLR.png; path = Code/Project/TFL/TFL/Resources/Images/DLR.png; sourceTree = "<group>"; };
+		F71821DA1615C27400C8F95B /* Good service.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Good service.png"; path = "Code/Project/TFL/TFL/Resources/Images/Good service.png"; sourceTree = "<group>"; };
+		F71821DB1615C27400C8F95B /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = header.png; path = Code/Project/TFL/TFL/Resources/Images/header.png; sourceTree = "<group>"; };
+		F71821DC1615C27400C8F95B /* icon_1_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_1_normal.png; path = Code/Project/TFL/TFL/Resources/Images/icon_1_normal.png; sourceTree = "<group>"; };
+		F71821DD1615C27400C8F95B /* icon_1_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_1_selected.png; path = Code/Project/TFL/TFL/Resources/Images/icon_1_selected.png; sourceTree = "<group>"; };
+		F71821DF1615C27400C8F95B /* icon_2_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_2_normal.png; path = Code/Project/TFL/TFL/Resources/Images/icon_2_normal.png; sourceTree = "<group>"; };
+		F71821E01615C27400C8F95B /* icon_2_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_2_selected.png; path = Code/Project/TFL/TFL/Resources/Images/icon_2_selected.png; sourceTree = "<group>"; };
+		F71821E21615C27400C8F95B /* icon_3_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_3_normal.png; path = Code/Project/TFL/TFL/Resources/Images/icon_3_normal.png; sourceTree = "<group>"; };
+		F71821E31615C27400C8F95B /* icon_3_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_3_selected.png; path = Code/Project/TFL/TFL/Resources/Images/icon_3_selected.png; sourceTree = "<group>"; };
+		F71821E71615C27400C8F95B /* location_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location_pin.png; path = Code/Project/TFL/TFL/Resources/Images/location_pin.png; sourceTree = "<group>"; };
+		F71821E81615C27400C8F95B /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = message.png; path = Code/Project/TFL/TFL/Resources/Images/message.png; sourceTree = "<group>"; };
+		F71821E91615C27400C8F95B /* Minor Delays.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Minor Delays.png"; path = "Code/Project/TFL/TFL/Resources/Images/Minor Delays.png"; sourceTree = "<group>"; };
+		F71821EA1615C27400C8F95B /* Part closure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Part closure.png"; path = "Code/Project/TFL/TFL/Resources/Images/Part closure.png"; sourceTree = "<group>"; };
+		F71821EB1615C27400C8F95B /* pin_with_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pin_with_shadow.png; path = Code/Project/TFL/TFL/Resources/Images/pin_with_shadow.png; sourceTree = "<group>"; };
+		F71821EC1615C27400C8F95B /* pin_without_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pin_without_shadow.png; path = Code/Project/TFL/TFL/Resources/Images/pin_without_shadow.png; sourceTree = "<group>"; };
+		F71821ED1615C27400C8F95B /* Planned closure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Planned closure.png"; path = "Code/Project/TFL/TFL/Resources/Images/Planned closure.png"; sourceTree = "<group>"; };
+		F71821EE1615C27400C8F95B /* radio_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radio_active.png; path = Code/Project/TFL/TFL/Resources/Images/radio_active.png; sourceTree = "<group>"; };
+		F71821EF1615C27400C8F95B /* radio_deactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radio_deactive.png; path = Code/Project/TFL/TFL/Resources/Images/radio_deactive.png; sourceTree = "<group>"; };
+		F71821F01615C27400C8F95B /* refresh_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refresh_arrow.png; path = Code/Project/TFL/TFL/Resources/Images/refresh_arrow.png; sourceTree = "<group>"; };
+		F71821F11615C27400C8F95B /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refresh.png; path = Code/Project/TFL/TFL/Resources/Images/refresh.png; sourceTree = "<group>"; };
+		F71821F21615C27400C8F95B /* search_box_with_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search_box_with_icon.png; path = Code/Project/TFL/TFL/Resources/Images/search_box_with_icon.png; sourceTree = "<group>"; };
+		F71821F31615C27400C8F95B /* Solid_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Solid_white.png; path = Code/Project/TFL/TFL/Resources/Images/Solid_white.png; sourceTree = "<group>"; };
+		F71821F51615C27400C8F95B /* tab_bottom_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_bottom_line.png; path = Code/Project/TFL/TFL/Resources/Images/tab_bottom_line.png; sourceTree = "<group>"; };
+		F71821F91615C27400C8F95B /* tool_tip_btn_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tool_tip_btn_normal.png; path = Code/Project/TFL/TFL/Resources/Images/tool_tip_btn_normal.png; sourceTree = "<group>"; };
+		F71821FA1615C27400C8F95B /* tool_tip_btn_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tool_tip_btn_pressed.png; path = Code/Project/TFL/TFL/Resources/Images/tool_tip_btn_pressed.png; sourceTree = "<group>"; };
+		F71821FB1615C27400C8F95B /* tool_tip_icon_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tool_tip_icon_home.png; path = Code/Project/TFL/TFL/Resources/Images/tool_tip_icon_home.png; sourceTree = "<group>"; };
+		F71821FC1615C27400C8F95B /* tool_tip_with_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tool_tip_with_shadow.png; path = Code/Project/TFL/TFL/Resources/Images/tool_tip_with_shadow.png; sourceTree = "<group>"; };
+		F71821FD1615C27400C8F95B /* tool_tip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tool_tip.png; path = Code/Project/TFL/TFL/Resources/Images/tool_tip.png; sourceTree = "<group>"; };
+		F71821FE1615C27400C8F95B /* top_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = top_bg.png; path = Code/Project/TFL/TFL/Resources/Images/top_bg.png; sourceTree = "<group>"; };
+		F71821FF1615C27400C8F95B /* Underground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Underground.png; path = Code/Project/TFL/TFL/Resources/Images/Underground.png; sourceTree = "<group>"; };
+		F71CC07115F74C68009984B8 /* TFL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71CC07515F74C68009984B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F71CC07715F74C68009984B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F71CC07915F74C68009984B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F71CC07D15F74C68009984B8 /* TFL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TFL-Info.plist"; sourceTree = "<group>"; };
+		F71CC07F15F74C68009984B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F71CC08115F74C68009984B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F71CC08315F74C68009984B8 /* TFL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TFL-Prefix.pch"; sourceTree = "<group>"; };
+		F71CC08815F74C68009984B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F71CC09D15F74E5E009984B8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F71CC09F15F74E8D009984B8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F73A74711622E096000D7062 /* TFLDepartureDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFLDepartureDetailModel.h; path = Code/Project/TFL/TFL/Model/TFLDepartureDetailModel/TFLDepartureDetailModel.h; sourceTree = "<group>"; };
+		F73A74721622E096000D7062 /* TFLDepartureDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFLDepartureDetailModel.m; path = Code/Project/TFL/TFL/Model/TFLDepartureDetailModel/TFLDepartureDetailModel.m; sourceTree = "<group>"; };
+		F73A74741622E0B1000D7062 /* Project Plan Status.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Project Plan Status.pdf"; path = "Architecture/Project Plan Status/Project Plan Status.pdf"; sourceTree = "<group>"; };
+		F73A74761622E0EE000D7062 /* arrow_left_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_left_normal.png; path = Code/Project/TFL/TFL/Resources/Images/arrow_left_normal.png; sourceTree = "<group>"; };
+		F73A74771622E0EE000D7062 /* arrow_right_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_right_normal.png; path = Code/Project/TFL/TFL/Resources/Images/arrow_right_normal.png; sourceTree = "<group>"; };
+		F73A74781622E0EE000D7062 /* arrowIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrowIcon.png; path = Code/Project/TFL/TFL/Resources/Images/arrowIcon.png; sourceTree = "<group>"; };
+		F73A747C1622E10C000D7062 /* tab_deactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_deactive.png; path = Code/Project/TFL/TFL/Resources/Images/tab_deactive.png; sourceTree = "<group>"; };
+		F73A747E1622E113000D7062 /* tab_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_active.png; path = Code/Project/TFL/TFL/Resources/Images/tab_active.png; sourceTree = "<group>"; };
+		F74CC2A71600812900FA9850 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F752B9001612F8A200878F8C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F75364DA162581060084F0CE /* route_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = route_0.png; sourceTree = "<group>"; };
+		F75DF8FD16281E29008A2BC2 /* TFL-Architecture.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "TFL-Architecture.pdf"; path = "Architecture/Diagram/TFL-Architecture.pdf"; sourceTree = "<group>"; };
+		F75DF90A162821CD008A2BC2 /* Departure View Controller.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Departure View Controller.pdf"; path = "Architecture/Use Case/Departure View Controller.pdf"; sourceTree = "<group>"; };
+		F75DF90B162821CD008A2BC2 /* PlannerViewController.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = PlannerViewController.pdf; path = "Architecture/Use Case/PlannerViewController.pdf"; sourceTree = "<group>"; };
+		F75DF90C162821CD008A2BC2 /* Preferences View Controller.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Preferences View Controller.pdf"; path = "Architecture/Use Case/Preferences View Controller.pdf"; sourceTree = "<group>"; };
+		F75DF90D162821CD008A2BC2 /* Routes View Controller.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Routes View Controller.pdf"; path = "Architecture/Use Case/Routes View Controller.pdf"; sourceTree = "<group>"; };
+		F75DF90E162821CD008A2BC2 /* Tube Status View Controller.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Tube Status View Controller.pdf"; path = "Architecture/Use Case/Tube Status View Controller.pdf"; sourceTree = "<group>"; };
+		F7A8F04315F9D50B00C6FCC7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F7AF21151626DB79005C7709 /* route_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = route_7.png; sourceTree = "<group>"; };
+		F7AF21161626DB79005C7709 /* route_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = route_4.png; sourceTree = "<group>"; };
+		F7AF211A1626E13D005C7709 /* route_107.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = route_107.png; sourceTree = "<group>"; };
+		F7CF6FCF161F1B1F005F4867 /* transport-for-london.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "transport-for-london.jpg"; sourceTree = "<group>"; };
+		F7CF6FD4161F1D79005F4867 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = en; path = en.lproj/pickAnOptionViewController.m; sourceTree = "<group>"; };
+		F7CF6FD7161F1D7D005F4867 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = en; path = en.lproj/TFLPlannerViewController.m; sourceTree = "<group>"; };
+		F7CF6FE1161F1F41005F4867 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localization.strings; sourceTree = "<group>"; };
+		F7CF6FE4161F1F53005F4867 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localization.strings; sourceTree = "<group>"; };
+		F7D7D030161C2E1700E4FED0 /* Station Maintenance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Station Maintenance.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F71CC06E15F74C68009984B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F752B9011612F8A300878F8C /* SystemConfiguration.framework in Frameworks */,
+				F74CC2A81600812900FA9850 /* QuartzCore.framework in Frameworks */,
+				F7A8F04415F9D50B00C6FCC7 /* CoreData.framework in Frameworks */,
+				F71CC0A015F74E8D009984B8 /* CoreLocation.framework in Frameworks */,
+				F71CC09E15F74E5E009984B8 /* MapKit.framework in Frameworks */,
+				F71CC07615F74C68009984B8 /* UIKit.framework in Frameworks */,
+				F71CC07815F74C68009984B8 /* Foundation.framework in Frameworks */,
+				F71CC07A15F74C68009984B8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F718219F1615C27400C8F95B /* 4.6 Route Summary */ = {
+			isa = PBXGroup;
+			children = (
+				F71821A01615C27400C8F95B /* 240 */,
+			);
+			name = "4.6 Route Summary";
+			path = "Code/Project/TFL/TFL/Resources/Images/4.6 Route Summary";
+			sourceTree = "<group>";
+		};
+		F71821A01615C27400C8F95B /* 240 */ = {
+			isa = PBXGroup;
+			children = (
+				F71821A11615C27400C8F95B /* back_container.png */,
+				F71821A21615C27400C8F95B /* back_container_divider.png */,
+				F71821A31615C27400C8F95B /* back_container_with_divider.png */,
+				F71821A41615C27400C8F95B /* cell_top_placeholder_normal.png */,
+				F71821A51615C27400C8F95B /* cell_top_placeholder_selected.png */,
+				F71821A61615C27400C8F95B /* icon_1.png */,
+				F71821A71615C27400C8F95B /* icon_2.png */,
+				F71821A81615C27400C8F95B /* icon_3.png */,
+				F71821A91615C27400C8F95B /* icon_4.png */,
+				F71821AA1615C27400C8F95B /* icon_clock.png */,
+				F71821AB1615C27400C8F95B /* strip.png */,
+				F71821AC1615C27400C8F95B /* strip_circle_normal.png */,
+				F71821AD1615C27400C8F95B /* strip_circle_pressed.png */,
+				F71821AE1615C27400C8F95B /* summary_cell_bottom_normal.png */,
+				F71821AF1615C27400C8F95B /* summary_cell_bottom_selected.png */,
+				F71821B01615C27400C8F95B /* summary_cell_top_normal.png */,
+				F71821B11615C27400C8F95B /* summary_cell_top_selected.png */,
+				F71821B21615C27400C8F95B /* time_bg.png */,
+				F71821B31615C27400C8F95B /* time_bg_dots.png */,
+				F71821B41615C27400C8F95B /* time_bg_mask.png */,
+			);
+			path = 240;
+			sourceTree = "<group>";
+		};
+		F71821B51615C27400C8F95B /* 240 */ = {
+			isa = PBXGroup;
+			children = (
+				F7CF6FCF161F1B1F005F4867 /* transport-for-london.jpg */,
+				F7D7D030161C2E1700E4FED0 /* Station Maintenance.png */,
+				F75364DA162581060084F0CE /* route_0.png */,
+				F7AF21151626DB79005C7709 /* route_7.png */,
+				F7AF21161626DB79005C7709 /* route_4.png */,
+				F71821B61615C27400C8F95B /* route_6.png */,
+				F7AF211A1626E13D005C7709 /* route_107.png */,
+				F71821B71615C27400C8F95B /* route_100.png */,
+				F71821B81615C27400C8F95B /* route_2.png */,
+				F71821B91615C27400C8F95B /* route_5.png */,
+				F71821BA1615C27400C8F95B /* route_99.png */,
+			);
+			name = 240;
+			path = Code/Project/TFL/TFL/Resources/Images/240;
+			sourceTree = "<group>";
+		};
+		F71CC06615F74C68009984B8 = {
+			isa = PBXGroup;
+			children = (
+				F7BC507F161488E400FBC6F2 /* Architecture */,
+				F7BC50821614892600FBC6F2 /* Code */,
+				F7BC507C1614884100FBC6F2 /* Design */,
+				F7979DF4160E2E7C0025EA62 /* Misc */,
+				F71CC07415F74C68009984B8 /* Frameworks */,
+				F71CC07215F74C68009984B8 /* Products */,
+				F71CC07C15F74C68009984B8 /* Supporting Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F71CC07215F74C68009984B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F71CC07115F74C68009984B8 /* TFL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F71CC07415F74C68009984B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F752B9001612F8A200878F8C /* SystemConfiguration.framework */,
+				F74CC2A71600812900FA9850 /* QuartzCore.framework */,
+				F7A8F04315F9D50B00C6FCC7 /* CoreData.framework */,
+				F71CC09F15F74E8D009984B8 /* CoreLocation.framework */,
+				F71CC09D15F74E5E009984B8 /* MapKit.framework */,
+				F71CC07515F74C68009984B8 /* UIKit.framework */,
+				F71CC07715F74C68009984B8 /* Foundation.framework */,
+				F71CC07915F74C68009984B8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F71CC07B15F74C68009984B8 /* TFL */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC50841614895300FBC6F2 /* TFL */,
+			);
+			name = TFL;
+			sourceTree = "<group>";
+		};
+		F71CC07C15F74C68009984B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F71CC07D15F74C68009984B8 /* TFL-Info.plist */,
+				F71CC07E15F74C68009984B8 /* InfoPlist.strings */,
+				F71CC08115F74C68009984B8 /* main.m */,
+				F71CC08315F74C68009984B8 /* TFL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = TFL;
+			sourceTree = "<group>";
+		};
+		F71CC0A415F750DE009984B8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F73A74761622E0EE000D7062 /* arrow_left_normal.png */,
+				F73A74771622E0EE000D7062 /* arrow_right_normal.png */,
+				F73A74781622E0EE000D7062 /* arrowIcon.png */,
+				F718219F1615C27400C8F95B /* 4.6 Route Summary */,
+				F71821B51615C27400C8F95B /* 240 */,
+				F71821BB1615C27400C8F95B /* 480x800_Air_Quality_Forecast_Box_Orange.png */,
+				F71821BC1615C27400C8F95B /* 480x800_FAQ_X.png */,
+				F71821BD1615C27400C8F95B /* arrow_1_normal.png */,
+				F71821BE1615C27400C8F95B /* arrow_1_pressed.png */,
+				F71821BF1615C27400C8F95B /* arrow_2_normal.png */,
+				F71821C01615C27400C8F95B /* arrow_2_pressed.png */,
+				F71821C41615C27400C8F95B /* bottom_bar.png */,
+				F71821C51615C27400C8F95B /* btn_bg.png */,
+				F71821C61615C27400C8F95B /* btn_find_green_normal.png */,
+				F71821C71615C27400C8F95B /* btn_find_green_pressed.png */,
+				F71821C81615C27400C8F95B /* btn_find_red_normal.png */,
+				F71821C91615C27400C8F95B /* btn_find_red.png */,
+				F71821CA1615C27400C8F95B /* btn_list_normal.png */,
+				F71821CB1615C27400C8F95B /* btn_list_pressed.png */,
+				F71821CC1615C27400C8F95B /* btn_map_normal.png */,
+				F71821CD1615C27400C8F95B /* btn_map_pressed.png */,
+				F71821CE1615C27400C8F95B /* btn_normal.png */,
+				F71821CF1615C27400C8F95B /* btn_pressed.png */,
+				F71821D01615C27400C8F95B /* btn_search_normal.png */,
+				F71821D11615C27400C8F95B /* btn_searchbox_normal.png */,
+				F71821D21615C27400C8F95B /* cell_bottom_normal.png */,
+				F71821D31615C27400C8F95B /* cell_bottom_pressed.png */,
+				F71821D41615C27400C8F95B /* cell_single_normal.png */,
+				F71821D51615C27400C8F95B /* cell_single_pressed.png */,
+				F71821D61615C27400C8F95B /* cell_top_normal.png */,
+				F71821D71615C27400C8F95B /* cell_top_pressed.png */,
+				F71821D81615C27400C8F95B /* color_border.png */,
+				F71821D91615C27400C8F95B /* DLR.png */,
+				F71821DA1615C27400C8F95B /* Good service.png */,
+				F71821DB1615C27400C8F95B /* header.png */,
+				F71821DC1615C27400C8F95B /* icon_1_normal.png */,
+				F71821DD1615C27400C8F95B /* icon_1_selected.png */,
+				F71821DF1615C27400C8F95B /* icon_2_normal.png */,
+				F71821E01615C27400C8F95B /* icon_2_selected.png */,
+				F71821E21615C27400C8F95B /* icon_3_normal.png */,
+				F71821E31615C27400C8F95B /* icon_3_selected.png */,
+				F71821E71615C27400C8F95B /* location_pin.png */,
+				F71821E81615C27400C8F95B /* message.png */,
+				F71821E91615C27400C8F95B /* Minor Delays.png */,
+				F71821EA1615C27400C8F95B /* Part closure.png */,
+				F71821EB1615C27400C8F95B /* pin_with_shadow.png */,
+				F71821EC1615C27400C8F95B /* pin_without_shadow.png */,
+				F71821ED1615C27400C8F95B /* Planned closure.png */,
+				F71821EE1615C27400C8F95B /* radio_active.png */,
+				F71821EF1615C27400C8F95B /* radio_deactive.png */,
+				F71821F01615C27400C8F95B /* refresh_arrow.png */,
+				F71821F11615C27400C8F95B /* refresh.png */,
+				F71821F21615C27400C8F95B /* search_box_with_icon.png */,
+				F71821F31615C27400C8F95B /* Solid_white.png */,
+				F71821F51615C27400C8F95B /* tab_bottom_line.png */,
+				F71821F91615C27400C8F95B /* tool_tip_btn_normal.png */,
+				F71821FA1615C27400C8F95B /* tool_tip_btn_pressed.png */,
+				F73A747C1622E10C000D7062 /* tab_deactive.png */,
+				F71821FB1615C27400C8F95B /* tool_tip_icon_home.png */,
+				F71821FC1615C27400C8F95B /* tool_tip_with_shadow.png */,
+				F73A747E1622E113000D7062 /* tab_active.png */,
+				F71821FD1615C27400C8F95B /* tool_tip.png */,
+				F71821FE1615C27400C8F95B /* top_bg.png */,
+				F71821FF1615C27400C8F95B /* Underground.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F732BC5215FF89BC001D846B /* TFLDepartures View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC5092161498BF00FBC6F2 /* TFLDepartureViewController */,
+				F7BC5093161498D900FBC6F2 /* TFLDepartureDetailViewController */,
+				F7BC5094161498F400FBC6F2 /* TFLDLRDetailViewController */,
+				F7BC50951614990D00FBC6F2 /* TFLPickAnOptionViewController */,
+			);
+			name = "TFLDepartures View Controllers";
+			sourceTree = "<group>";
+		};
+		F73A74801622E120000D7062 /* Directions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Directions;
+			path = Code/Project/TFL/TFL/Resources/Images/Directions;
+			sourceTree = "<group>";
+		};
+		F752B8E91612F49200878F8C /* TFLReachabilty */ = {
+			isa = PBXGroup;
+			children = (
+				F71821961615C20200C8F95B /* CheckNetwork.h */,
+				F71821971615C20200C8F95B /* CheckNetwork.m */,
+				F71821981615C20200C8F95B /* Reachability.h */,
+				F71821991615C20200C8F95B /* Reachability.m */,
+			);
+			name = TFLReachabilty;
+			sourceTree = "<group>";
+		};
+		F7559E9815FA211F008D7189 /* TFLPlanner View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC508D161497ED00FBC6F2 /* TFLPlannerViewController */,
+				F7BC508E1614982700FBC6F2 /* TFLRoutesViewController */,
+				F7BC508F1614984400FBC6F2 /* TFLDetailRoutesViewController */,
+				F7BC50901614985A00FBC6F2 /* TFLPreferencesViewController */,
+				F7BC50911614987200FBC6F2 /* TFLDisplayPreferencesViewController */,
+			);
+			name = "TFLPlanner View Controllers";
+			sourceTree = "<group>";
+		};
+		F7559E9915FA2156008D7189 /* CoreData Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC50A316149A8E00FBC6F2 /* TFLDataModel */,
+				F7BC50A116149A5C00FBC6F2 /* TFLPlacesOfInterest */,
+				F7BC50A216149A6D00FBC6F2 /* TFLStations */,
+			);
+			name = "CoreData Model";
+			sourceTree = "<group>";
+		};
+		F7559E9A15FA217A008D7189 /* TFLApp Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				F718216B1615C15D00C8F95B /* TFLAppDelegate.h */,
+				F718216C1615C15D00C8F95B /* TFLAppDelegate.m */,
+			);
+			name = "TFLApp Delegate";
+			sourceTree = "<group>";
+		};
+		F757420915FDEDE1005A3775 /* TFLTubeStatus View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F71821311615BFD200C8F95B /* TFLTubeStatusViewController.h */,
+				F71821321615BFD200C8F95B /* TFLTubeStatusViewController.m */,
+			);
+			name = "TFLTubeStatus View Controller";
+			sourceTree = "<group>";
+		};
+		F75DF8FF16282118008A2BC2 /* Use Case */ = {
+			isa = PBXGroup;
+			children = (
+				F75DF90A162821CD008A2BC2 /* Departure View Controller.pdf */,
+				F75DF90B162821CD008A2BC2 /* PlannerViewController.pdf */,
+				F75DF90C162821CD008A2BC2 /* Preferences View Controller.pdf */,
+				F75DF90D162821CD008A2BC2 /* Routes View Controller.pdf */,
+				F75DF90E162821CD008A2BC2 /* Tube Status View Controller.pdf */,
+			);
+			name = "Use Case";
+			sourceTree = "<group>";
+		};
+		F7979DF3160E2E380025EA62 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC50A416149ABB00FBC6F2 /* TFLTubeStations */,
+				F7BC50A516149AD600FBC6F2 /* TFLPlaceOfInterest */,
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		F7979DF4160E2E7C0025EA62 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				F752B8E91612F49200878F8C /* TFLReachabilty */,
+			);
+			name = Misc;
+			path = TFL;
+			sourceTree = "<group>";
+		};
+		F7A3A892160F51AA009B0BC8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC509C161499DA00FBC6F2 /* TFLTubeStatusCustomCell */,
+				F7BC509D161499EF00FBC6F2 /* TFLDepartureCustomCell */,
+				F7BC509E16149A0A00FBC6F2 /* TFLCustomCircleView */,
+				F7BC509F16149A2100FBC6F2 /* TFLRoutesDisplayCustomCell */,
+				F7BC50A016149A3B00FBC6F2 /* TFLRouteSummaryCustomCell */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F7A3A894160F51C2009B0BC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC50961614994700FBC6F2 /* TFLRoutesAnnotations */,
+				F7BC50971614995C00FBC6F2 /* TFLTubeStatusModel */,
+				F7BC50981614998000FBC6F2 /* TFLStationCodesFetcherModel */,
+				F7BC50991614999600FBC6F2 /* TFLSearchModel */,
+				F7D3FE541622A6F300F87213 /* TFLDepartureDetailModel */,
+				F7BC509A161499AB00FBC6F2 /* TFLPlacesAnnotations */,
+				F7BC509B161499BE00FBC6F2 /* TFLPlacesFetcherModel */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F7A3A895160F522C009B0BC8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7559E9815FA211F008D7189 /* TFLPlanner View Controllers */,
+				F757420915FDEDE1005A3775 /* TFLTubeStatus View Controller */,
+				F732BC5215FF89BC001D846B /* TFLDepartures View Controllers */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F7A3A896160F5253009B0BC8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F71CC08715F74C68009984B8 /* MainStoryboard.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		F7BC507C1614884100FBC6F2 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC50A816149DDD00FBC6F2 /* specs */,
+				F7BC50B716149DDD00FBC6F2 /* wireframe */,
+			);
+			name = Design;
+			path = TFL;
+			sourceTree = "<group>";
+		};
+		F7BC507D1614886300FBC6F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F73A74801622E120000D7062 /* Directions */,
+				F71CC0A415F750DE009984B8 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F7BC507E161488AA00FBC6F2 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				F7D03D2516147BDE00C7BC49 /* Pull Down To Refresh */,
+				F7CDE0D0160C954600793821 /* ProgressHUD */,
+				F7C20E741607031F002DBE39 /* Custom Map Annotation View */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		F7BC507F161488E400FBC6F2 /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				F75DF8FF16282118008A2BC2 /* Use Case */,
+				F7BC5080161488FD00FBC6F2 /* Diagram */,
+				F7BC50811614891000FBC6F2 /* Project Plan */,
+				F7D7D033161C39A200E4FED0 /* Project Plan Status */,
+			);
+			name = Architecture;
+			path = TFL;
+			sourceTree = "<group>";
+		};
+		F7BC5080161488FD00FBC6F2 /* Diagram */ = {
+			isa = PBXGroup;
+			children = (
+				F75DF8FD16281E29008A2BC2 /* TFL-Architecture.pdf */,
+			);
+			name = Diagram;
+			sourceTree = "<group>";
+		};
+		F7BC50811614891000FBC6F2 /* Project Plan */ = {
+			isa = PBXGroup;
+			children = (
+				F71821201615BF1300C8F95B /* TFL-ProjectPlan.pdf */,
+			);
+			name = "Project Plan";
+			sourceTree = "<group>";
+		};
+		F7BC50821614892600FBC6F2 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC50831614893700FBC6F2 /* Project */,
+			);
+			name = Code;
+			path = TFL;
+			sourceTree = "<group>";
+		};
+		F7BC50831614893700FBC6F2 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				F71CC07B15F74C68009984B8 /* TFL */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		F7BC50841614895300FBC6F2 /* TFL */ = {
+			isa = PBXGroup;
+			children = (
+				F7CF6FE5161F2837005F4867 /* Localization */,
+				F7A3A895160F522C009B0BC8 /* Controllers */,
+				F7A3A894160F51C2009B0BC8 /* Model */,
+				F7A3A896160F5253009B0BC8 /* Storyboard */,
+				F7A3A892160F51AA009B0BC8 /* Views */,
+				F7559E9915FA2156008D7189 /* CoreData Model */,
+				F7BC507D1614886300FBC6F2 /* Resources */,
+				F7979DF3160E2E380025EA62 /* DataBase */,
+				F7559E9A15FA217A008D7189 /* TFLApp Delegate */,
+				F7BC507E161488AA00FBC6F2 /* Third Party */,
+			);
+			name = TFL;
+			sourceTree = "<group>";
+		};
+		F7BC508D161497ED00FBC6F2 /* TFLPlannerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F71821221615BF7100C8F95B /* TFLPlannerViewController.h */,
+				F7CF6FD8161F1D7D005F4867 /* TFLPlannerViewController.m */,
+			);
+			name = TFLPlannerViewController;
+			sourceTree = "<group>";
+		};
+		F7BC508E1614982700FBC6F2 /* TFLRoutesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F71821251615BF8300C8F95B /* TFLRoutesViewController.h */,
+				F71821261615BF8300C8F95B /* TFLRoutesViewController.m */,
+			);
+			name = TFLRoutesViewController;
+			sourceTree = "<group>";
+		};
+		F7BC508F1614984400FBC6F2 /* TFLDetailRoutesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F71821281615BF9100C8F95B /* TFLDetailRoutesViewController.h */,
+				F71821291615BF9100C8F95B /* TFLDetailRoutesViewController.m */,
+			);
+			name = TFLDetailRoutesViewController;
+			sourceTree = "<group>";
+		};
+		F7BC50901614985A00FBC6F2 /* TFLPreferencesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F718212B1615BFA200C8F95B /* TFLPreferencesViewController.h */,
+				F718212C1615BFA200C8F95B /* TFLPreferencesViewController.m */,
+			);
+			name = TFLPreferencesViewController;
+			sourceTree = "<group>";
+		};
+		F7BC50911614987200FBC6F2 /* TFLDisplayPreferencesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F718212E1615BFBA00C8F95B /* TFLDisplayPreferencesOptionsViewController.h */,
+				F718212F1615BFBA00C8F95B /* TFLDisplayPreferencesOptionsViewController.m */,
+			);
+			name = TFLDisplayPreferencesViewController;
+			sourceTree = "<group>";
+		};
+		F7BC5092161498BF00FBC6F2 /* TFLDepartureViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F71821341615BFE500C8F95B /* DepartureViewController.h */,
+				F71821351615BFE500C8F95B /* DepartureViewController.m */,
+			);
+			name = TFLDepartureViewController;
+			sourceTree = "<group>";
+		};
+		F7BC5093161498D900FBC6F2 /* TFLDepartureDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F71821371615BFF400C8F95B /* DepartureDetailViewController.h */,
+				F71821381615BFF400C8F95B /* DepartureDetailViewController.m */,
+			);
+			name = TFLDepartureDetailViewController;
+			sourceTree = "<group>";
+		};
+		F7BC5094161498F400FBC6F2 /* TFLDLRDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F718213A1615C00200C8F95B /* DLRDetailViewController.h */,
+				F718213B1615C00200C8F95B /* DLRDetailViewController.m */,
+			);
+			name = TFLDLRDetailViewController;
+			sourceTree = "<group>";
+		};
+		F7BC50951614990D00FBC6F2 /* TFLPickAnOptionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F718213D1615C01000C8F95B /* pickAnOptionViewController.h */,
+				F7CF6FD5161F1D79005F4867 /* pickAnOptionViewController.m */,
+			);
+			name = TFLPickAnOptionViewController;
+			sourceTree = "<group>";
+		};
+		F7BC50961614994700FBC6F2 /* TFLRoutesAnnotations */ = {
+			isa = PBXGroup;
+			children = (
+				F71821401615C02900C8F95B /* TFLRoutesAnnotations.h */,
+				F71821411615C02900C8F95B /* TFLRoutesAnnotations.m */,
+			);
+			name = TFLRoutesAnnotations;
+			sourceTree = "<group>";
+		};
+		F7BC50971614995C00FBC6F2 /* TFLTubeStatusModel */ = {
+			isa = PBXGroup;
+			children = (
+				F71821431615C03800C8F95B /* TFLTubeStatusModel.h */,
+				F71821441615C03800C8F95B /* TFLTubeStatusModel.m */,
+			);
+			name = TFLTubeStatusModel;
+			sourceTree = "<group>";
+		};
+		F7BC50981614998000FBC6F2 /* TFLStationCodesFetcherModel */ = {
+			isa = PBXGroup;
+			children = (
+				F71821461615C04600C8F95B /* stationCodesFetcher.h */,
+				F71821471615C04600C8F95B /* stationCodesFetcher.m */,
+			);
+			name = TFLStationCodesFetcherModel;
+			sourceTree = "<group>";
+		};
+		F7BC50991614999600FBC6F2 /* TFLSearchModel */ = {
+			isa = PBXGroup;
+			children = (
+				F71821491615C05400C8F95B /* TFLSearchModel.h */,
+				F718214A1615C05400C8F95B /* TFLSearchModel.m */,
+			);
+			name = TFLSearchModel;
+			sourceTree = "<group>";
+		};
+		F7BC509A161499AB00FBC6F2 /* TFLPlacesAnnotations */ = {
+			isa = PBXGroup;
+			children = (
+				F718214C1615C06500C8F95B /* placesAnnotations.h */,
+				F718214D1615C06500C8F95B /* placesAnnotations.m */,
+			);
+			name = TFLPlacesAnnotations;
+			sourceTree = "<group>";
+		};
+		F7BC509B161499BE00FBC6F2 /* TFLPlacesFetcherModel */ = {
+			isa = PBXGroup;
+			children = (
+				F718214F1615C07E00C8F95B /* PlacesFetcher.h */,
+				F71821501615C07E00C8F95B /* PlacesFetcher.m */,
+			);
+			name = TFLPlacesFetcherModel;
+			sourceTree = "<group>";
+		};
+		F7BC509C161499DA00FBC6F2 /* TFLTubeStatusCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				F71821521615C0A400C8F95B /* TubeStatusCustomCell.h */,
+				F71821531615C0A400C8F95B /* TubeStatusCustomCell.m */,
+			);
+			name = TFLTubeStatusCustomCell;
+			sourceTree = "<group>";
+		};
+		F7BC509D161499EF00FBC6F2 /* TFLDepartureCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				F71821551615C0B300C8F95B /* DepartureCustomCell.h */,
+				F71821561615C0B300C8F95B /* DepartureCustomCell.m */,
+			);
+			name = TFLDepartureCustomCell;
+			sourceTree = "<group>";
+		};
+		F7BC509E16149A0A00FBC6F2 /* TFLCustomCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				F71821581615C0C200C8F95B /* CircleView.h */,
+				F71821591615C0C200C8F95B /* CircleView.m */,
+			);
+			name = TFLCustomCircleView;
+			sourceTree = "<group>";
+		};
+		F7BC509F16149A2100FBC6F2 /* TFLRoutesDisplayCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				F718215B1615C0D000C8F95B /* RoutesDisplayCustomCell.h */,
+				F718215C1615C0D000C8F95B /* RoutesDisplayCustomCell.m */,
+			);
+			name = TFLRoutesDisplayCustomCell;
+			sourceTree = "<group>";
+		};
+		F7BC50A016149A3B00FBC6F2 /* TFLRouteSummaryCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				F718215E1615C0DF00C8F95B /* RouteSummaryCustomCell.h */,
+				F718215F1615C0DF00C8F95B /* RouteSummaryCustomCell.m */,
+			);
+			name = TFLRouteSummaryCustomCell;
+			sourceTree = "<group>";
+		};
+		F7BC50A116149A5C00FBC6F2 /* TFLPlacesOfInterest */ = {
+			isa = PBXGroup;
+			children = (
+				F71821611615C10C00C8F95B /* POI.h */,
+				F71821621615C10C00C8F95B /* POI.m */,
+			);
+			name = TFLPlacesOfInterest;
+			sourceTree = "<group>";
+		};
+		F7BC50A216149A6D00FBC6F2 /* TFLStations */ = {
+			isa = PBXGroup;
+			children = (
+				F71821641615C11900C8F95B /* Stations.h */,
+				F71821651615C11900C8F95B /* Stations.m */,
+			);
+			name = TFLStations;
+			sourceTree = "<group>";
+		};
+		F7BC50A316149A8E00FBC6F2 /* TFLDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				F718219C1615C23B00C8F95B /* TFLData.xcdatamodeld */,
+			);
+			name = TFLDataModel;
+			sourceTree = "<group>";
+		};
+		F7BC50A416149ABB00FBC6F2 /* TFLTubeStations */ = {
+			isa = PBXGroup;
+			children = (
+				F71821671615C14100C8F95B /* Stations.txt */,
+			);
+			name = TFLTubeStations;
+			sourceTree = "<group>";
+		};
+		F7BC50A516149AD600FBC6F2 /* TFLPlaceOfInterest */ = {
+			isa = PBXGroup;
+			children = (
+				F71821691615C14D00C8F95B /* venues.txt */,
+			);
+			name = TFLPlaceOfInterest;
+			sourceTree = "<group>";
+		};
+		F7BC50A816149DDD00FBC6F2 /* specs */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC50A916149DDD00FBC6F2 /* mockups */,
+			);
+			path = specs;
+			sourceTree = "<group>";
+		};
+		F7BC50A916149DDD00FBC6F2 /* mockups */ = {
+			isa = PBXGroup;
+			children = (
+				F718217A1615C1D800C8F95B /* 4.0 Journey Planner.jpeg */,
+				F718217B1615C1D800C8F95B /* 4.1aJourney Planner .jpeg */,
+				F718217C1615C1D800C8F95B /* 4.1bJourney Planner .jpeg */,
+				F718217D1615C1D800C8F95B /* 4.1cJourney Planner .jpeg */,
+				F718217E1615C1D800C8F95B /* 4.2 Choose Location Map.jpeg */,
+				F718217F1615C1D800C8F95B /* 4.3 Choose a Location List.jpeg */,
+				F71821801615C1D800C8F95B /* 4.5 Choose a Route.jpeg */,
+				F71821811615C1D800C8F95B /* 4.6 Route Summary.jpeg */,
+				F71821821615C1D800C8F95B /* 6.0 Departures.jpeg */,
+				F71821831615C1D800C8F95B /* 6.1 Pick a tube Line.jpeg */,
+				F71821841615C1D800C8F95B /* 6.2 Departures List.jpeg */,
+				F71821851615C1D800C8F95B /* 6.3 Pick a Station.jpeg */,
+				F71821861615C1D800C8F95B /* tube status.jpeg */,
+			);
+			path = mockups;
+			sourceTree = "<group>";
+		};
+		F7BC50B716149DDD00FBC6F2 /* wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				F71821941615C1EA00C8F95B /* TFL Android wireframes 0.2.2.pdf */,
+			);
+			path = wireframe;
+			sourceTree = "<group>";
+		};
+		F7C20E741607031F002DBE39 /* Custom Map Annotation View */ = {
+			isa = PBXGroup;
+			children = (
+				F71821741615C18E00C8F95B /* CalloutMapAnnotation.h */,
+				F71821751615C18E00C8F95B /* CalloutMapAnnotation.m */,
+				F71821761615C18E00C8F95B /* CalloutMapAnnotationView.h */,
+				F71821771615C18E00C8F95B /* CalloutMapAnnotationView.m */,
+			);
+			name = "Custom Map Annotation View";
+			sourceTree = "<group>";
+		};
+		F7CDE0D0160C954600793821 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F71821711615C18000C8F95B /* ProgressHUD.h */,
+				F71821721615C18000C8F95B /* ProgressHUD.m */,
+			);
+			name = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		F7CF6FE5161F2837005F4867 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				F7CF6FE2161F1F41005F4867 /* Localization.strings */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		F7D03D2516147BDE00C7BC49 /* Pull Down To Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				F718216E1615C16F00C8F95B /* EGORefreshTableHeaderView.h */,
+				F718216F1615C16F00C8F95B /* EGORefreshTableHeaderView.m */,
+			);
+			name = "Pull Down To Refresh";
+			sourceTree = "<group>";
+		};
+		F7D3FE541622A6F300F87213 /* TFLDepartureDetailModel */ = {
+			isa = PBXGroup;
+			children = (
+				F73A74711622E096000D7062 /* TFLDepartureDetailModel.h */,
+				F73A74721622E096000D7062 /* TFLDepartureDetailModel.m */,
+			);
+			name = TFLDepartureDetailModel;
+			sourceTree = "<group>";
+		};
+		F7D7D033161C39A200E4FED0 /* Project Plan Status */ = {
+			isa = PBXGroup;
+			children = (
+				F73A74741622E0B1000D7062 /* Project Plan Status.pdf */,
+			);
+			name = "Project Plan Status";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F71CC07015F74C68009984B8 /* TFL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71CC09A15F74C68009984B8 /* Build configuration list for PBXNativeTarget "TFL" */;
+			buildPhases = (
+				F71CC06D15F74C68009984B8 /* Sources */,
+				F71CC06E15F74C68009984B8 /* Frameworks */,
+				F71CC06F15F74C68009984B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFL;
+			productName = TFL;
+			productReference = F71CC07115F74C68009984B8 /* TFL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F71CC06815F74C68009984B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F71CC06B15F74C68009984B8 /* Build configuration list for PBXProject "TFL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+			);
+			mainGroup = F71CC06615F74C68009984B8;
+			productRefGroup = F71CC07215F74C68009984B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F71CC07015F74C68009984B8 /* TFL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F71CC06F15F74C68009984B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71CC08015F74C68009984B8 /* InfoPlist.strings in Resources */,
+				F71CC08915F74C68009984B8 /* MainStoryboard.storyboard in Resources */,
+				F71821211615BF1300C8F95B /* TFL-ProjectPlan.pdf in Resources */,
+				F71821681615C14100C8F95B /* Stations.txt in Resources */,
+				F718216A1615C14D00C8F95B /* venues.txt in Resources */,
+				F71821871615C1D800C8F95B /* 4.0 Journey Planner.jpeg in Resources */,
+				F71821881615C1D800C8F95B /* 4.1aJourney Planner .jpeg in Resources */,
+				F71821891615C1D800C8F95B /* 4.1bJourney Planner .jpeg in Resources */,
+				F718218A1615C1D800C8F95B /* 4.1cJourney Planner .jpeg in Resources */,
+				F718218B1615C1D800C8F95B /* 4.2 Choose Location Map.jpeg in Resources */,
+				F718218C1615C1D800C8F95B /* 4.3 Choose a Location List.jpeg in Resources */,
+				F718218D1615C1D800C8F95B /* 4.5 Choose a Route.jpeg in Resources */,
+				F718218E1615C1D800C8F95B /* 4.6 Route Summary.jpeg in Resources */,
+				F718218F1615C1D800C8F95B /* 6.0 Departures.jpeg in Resources */,
+				F71821901615C1D800C8F95B /* 6.1 Pick a tube Line.jpeg in Resources */,
+				F71821911615C1D800C8F95B /* 6.2 Departures List.jpeg in Resources */,
+				F71821921615C1D800C8F95B /* 6.3 Pick a Station.jpeg in Resources */,
+				F71821931615C1D800C8F95B /* tube status.jpeg in Resources */,
+				F71821951615C1EA00C8F95B /* TFL Android wireframes 0.2.2.pdf in Resources */,
+				F71822001615C27400C8F95B /* back_container.png in Resources */,
+				F71822011615C27400C8F95B /* back_container_divider.png in Resources */,
+				F71822021615C27400C8F95B /* back_container_with_divider.png in Resources */,
+				F71822031615C27400C8F95B /* cell_top_placeholder_normal.png in Resources */,
+				F71822041615C27400C8F95B /* cell_top_placeholder_selected.png in Resources */,
+				F71822051615C27400C8F95B /* icon_1.png in Resources */,
+				F71822061615C27400C8F95B /* icon_2.png in Resources */,
+				F71822071615C27400C8F95B /* icon_3.png in Resources */,
+				F71822081615C27400C8F95B /* icon_4.png in Resources */,
+				F71822091615C27400C8F95B /* icon_clock.png in Resources */,
+				F718220A1615C27400C8F95B /* strip.png in Resources */,
+				F718220B1615C27400C8F95B /* strip_circle_normal.png in Resources */,
+				F718220C1615C27400C8F95B /* strip_circle_pressed.png in Resources */,
+				F718220D1615C27400C8F95B /* summary_cell_bottom_normal.png in Resources */,
+				F718220E1615C27400C8F95B /* summary_cell_bottom_selected.png in Resources */,
+				F718220F1615C27400C8F95B /* summary_cell_top_normal.png in Resources */,
+				F71822101615C27400C8F95B /* summary_cell_top_selected.png in Resources */,
+				F71822111615C27400C8F95B /* time_bg.png in Resources */,
+				F71822121615C27400C8F95B /* time_bg_dots.png in Resources */,
+				F71822131615C27400C8F95B /* time_bg_mask.png in Resources */,
+				F71822141615C27400C8F95B /* route_6.png in Resources */,
+				F71822151615C27400C8F95B /* route_100.png in Resources */,
+				F71822161615C27400C8F95B /* route_2.png in Resources */,
+				F71822171615C27400C8F95B /* route_5.png in Resources */,
+				F71822181615C27400C8F95B /* route_99.png in Resources */,
+				F71822191615C27400C8F95B /* 480x800_Air_Quality_Forecast_Box_Orange.png in Resources */,
+				F718221A1615C27400C8F95B /* 480x800_FAQ_X.png in Resources */,
+				F718221B1615C27400C8F95B /* arrow_1_normal.png in Resources */,
+				F718221C1615C27400C8F95B /* arrow_1_pressed.png in Resources */,
+				F718221D1615C27400C8F95B /* arrow_2_normal.png in Resources */,
+				F718221E1615C27400C8F95B /* arrow_2_pressed.png in Resources */,
+				F71822221615C27400C8F95B /* bottom_bar.png in Resources */,
+				F71822231615C27400C8F95B /* btn_bg.png in Resources */,
+				F71822241615C27400C8F95B /* btn_find_green_normal.png in Resources */,
+				F71822251615C27400C8F95B /* btn_find_green_pressed.png in Resources */,
+				F71822261615C27400C8F95B /* btn_find_red_normal.png in Resources */,
+				F71822271615C27400C8F95B /* btn_find_red.png in Resources */,
+				F71822281615C27400C8F95B /* btn_list_normal.png in Resources */,
+				F71822291615C27400C8F95B /* btn_list_pressed.png in Resources */,
+				F718222A1615C27400C8F95B /* btn_map_normal.png in Resources */,
+				F718222B1615C27400C8F95B /* btn_map_pressed.png in Resources */,
+				F718222C1615C27400C8F95B /* btn_normal.png in Resources */,
+				F718222D1615C27400C8F95B /* btn_pressed.png in Resources */,
+				F718222E1615C27400C8F95B /* btn_search_normal.png in Resources */,
+				F718222F1615C27400C8F95B /* btn_searchbox_normal.png in Resources */,
+				F71822301615C27400C8F95B /* cell_bottom_normal.png in Resources */,
+				F71822311615C27400C8F95B /* cell_bottom_pressed.png in Resources */,
+				F71822321615C27400C8F95B /* cell_single_normal.png in Resources */,
+				F71822331615C27400C8F95B /* cell_single_pressed.png in Resources */,
+				F71822341615C27400C8F95B /* cell_top_normal.png in Resources */,
+				F71822351615C27400C8F95B /* cell_top_pressed.png in Resources */,
+				F71822361615C27400C8F95B /* color_border.png in Resources */,
+				F71822371615C27400C8F95B /* DLR.png in Resources */,
+				F71822381615C27400C8F95B /* Good service.png in Resources */,
+				F71822391615C27400C8F95B /* header.png in Resources */,
+				F718223A1615C27400C8F95B /* icon_1_normal.png in Resources */,
+				F718223B1615C27400C8F95B /* icon_1_selected.png in Resources */,
+				F718223D1615C27400C8F95B /* icon_2_normal.png in Resources */,
+				F718223E1615C27400C8F95B /* icon_2_selected.png in Resources */,
+				F71822401615C27400C8F95B /* icon_3_normal.png in Resources */,
+				F71822411615C27400C8F95B /* icon_3_selected.png in Resources */,
+				F71822451615C27400C8F95B /* location_pin.png in Resources */,
+				F71822461615C27400C8F95B /* message.png in Resources */,
+				F71822471615C27400C8F95B /* Minor Delays.png in Resources */,
+				F71822481615C27400C8F95B /* Part closure.png in Resources */,
+				F71822491615C27400C8F95B /* pin_with_shadow.png in Resources */,
+				F718224A1615C27400C8F95B /* pin_without_shadow.png in Resources */,
+				F718224B1615C27400C8F95B /* Planned closure.png in Resources */,
+				F718224C1615C27400C8F95B /* radio_active.png in Resources */,
+				F718224D1615C27400C8F95B /* radio_deactive.png in Resources */,
+				F718224E1615C27400C8F95B /* refresh_arrow.png in Resources */,
+				F718224F1615C27400C8F95B /* refresh.png in Resources */,
+				F71822501615C27400C8F95B /* search_box_with_icon.png in Resources */,
+				F71822511615C27400C8F95B /* Solid_white.png in Resources */,
+				F71822531615C27400C8F95B /* tab_bottom_line.png in Resources */,
+				F71822571615C27400C8F95B /* tool_tip_btn_normal.png in Resources */,
+				F71822581615C27400C8F95B /* tool_tip_btn_pressed.png in Resources */,
+				F71822591615C27400C8F95B /* tool_tip_icon_home.png in Resources */,
+				F718225A1615C27400C8F95B /* tool_tip_with_shadow.png in Resources */,
+				F718225B1615C27400C8F95B /* tool_tip.png in Resources */,
+				F718225C1615C27400C8F95B /* top_bg.png in Resources */,
+				F718225D1615C27400C8F95B /* Underground.png in Resources */,
+				F7D7D031161C2E1700E4FED0 /* Station Maintenance.png in Resources */,
+				F7CF6FD0161F1B1F005F4867 /* transport-for-london.jpg in Resources */,
+				F7CF6FE0161F1F41005F4867 /* Localization.strings in Resources */,
+				F73A74751622E0B1000D7062 /* Project Plan Status.pdf in Resources */,
+				F73A74791622E0EE000D7062 /* arrow_left_normal.png in Resources */,
+				F73A747A1622E0EE000D7062 /* arrow_right_normal.png in Resources */,
+				F73A747B1622E0EE000D7062 /* arrowIcon.png in Resources */,
+				F73A747D1622E10C000D7062 /* tab_deactive.png in Resources */,
+				F73A747F1622E113000D7062 /* tab_active.png in Resources */,
+				F75364DB162581070084F0CE /* route_0.png in Resources */,
+				F7AF21171626DB79005C7709 /* route_7.png in Resources */,
+				F7AF21181626DB79005C7709 /* route_4.png in Resources */,
+				F7AF211B1626E13E005C7709 /* route_107.png in Resources */,
+				F75DF8FE16281E29008A2BC2 /* TFL-Architecture.pdf in Resources */,
+				F75DF90F162821CD008A2BC2 /* Departure View Controller.pdf in Resources */,
+				F75DF910162821CD008A2BC2 /* PlannerViewController.pdf in Resources */,
+				F75DF911162821CD008A2BC2 /* Preferences View Controller.pdf in Resources */,
+				F75DF912162821CD008A2BC2 /* Routes View Controller.pdf in Resources */,
+				F75DF913162821CD008A2BC2 /* Tube Status View Controller.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F71CC06D15F74C68009984B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71CC08215F74C68009984B8 /* main.m in Sources */,
+				F7CF6FD6161F1D7D005F4867 /* TFLPlannerViewController.m in Sources */,
+				F71821271615BF8300C8F95B /* TFLRoutesViewController.m in Sources */,
+				F718212A1615BF9100C8F95B /* TFLDetailRoutesViewController.m in Sources */,
+				F718212D1615BFA200C8F95B /* TFLPreferencesViewController.m in Sources */,
+				F71821331615BFD200C8F95B /* TFLTubeStatusViewController.m in Sources */,
+				F71821361615BFE500C8F95B /* DepartureViewController.m in Sources */,
+				F71821391615BFF400C8F95B /* DepartureDetailViewController.m in Sources */,
+				F718213C1615C00200C8F95B /* DLRDetailViewController.m in Sources */,
+				F7CF6FD3161F1D79005F4867 /* pickAnOptionViewController.m in Sources */,
+				F71821421615C02900C8F95B /* TFLRoutesAnnotations.m in Sources */,
+				F71821451615C03800C8F95B /* TFLTubeStatusModel.m in Sources */,
+				F71821481615C04600C8F95B /* stationCodesFetcher.m in Sources */,
+				F718214B1615C05400C8F95B /* TFLSearchModel.m in Sources */,
+				F718214E1615C06500C8F95B /* placesAnnotations.m in Sources */,
+				F71821511615C07E00C8F95B /* PlacesFetcher.m in Sources */,
+				F71821541615C0A400C8F95B /* TubeStatusCustomCell.m in Sources */,
+				F71821571615C0B300C8F95B /* DepartureCustomCell.m in Sources */,
+				F718215A1615C0C200C8F95B /* CircleView.m in Sources */,
+				F718215D1615C0D000C8F95B /* RoutesDisplayCustomCell.m in Sources */,
+				F71821601615C0DF00C8F95B /* RouteSummaryCustomCell.m in Sources */,
+				F71821631615C10C00C8F95B /* POI.m in Sources */,
+				F71821661615C11900C8F95B /* Stations.m in Sources */,
+				F718216D1615C15D00C8F95B /* TFLAppDelegate.m in Sources */,
+				F71821701615C16F00C8F95B /* EGORefreshTableHeaderView.m in Sources */,
+				F71821731615C18000C8F95B /* ProgressHUD.m in Sources */,
+				F71821781615C18E00C8F95B /* CalloutMapAnnotation.m in Sources */,
+				F71821791615C18E00C8F95B /* CalloutMapAnnotationView.m in Sources */,
+				F718219A1615C20200C8F95B /* CheckNetwork.m in Sources */,
+				F718219B1615C20200C8F95B /* Reachability.m in Sources */,
+				F718219E1615C23B00C8F95B /* TFLData.xcdatamodeld in Sources */,
+				F73A74731622E096000D7062 /* TFLDepartureDetailModel.m in Sources */,
+				F7934BDB1627E14500DCDDF6 /* TFLDisplayPreferencesOptionsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F71CC07E15F74C68009984B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F71CC07F15F74C68009984B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F71CC08715F74C68009984B8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F71CC08815F74C68009984B8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		F7CF6FD5161F1D79005F4867 /* pickAnOptionViewController.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7CF6FD4161F1D79005F4867 /* en */,
+			);
+			name = pickAnOptionViewController.m;
+			path = "Code/Project/TFL/TFL/Controllers/TFLDepartures View Controllers/TFLPickAnOptionViewController";
+			sourceTree = "<group>";
+		};
+		F7CF6FD8161F1D7D005F4867 /* TFLPlannerViewController.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7CF6FD7161F1D7D005F4867 /* en */,
+			);
+			name = TFLPlannerViewController.m;
+			path = Code/Project/TFL/TFL/Controllers/TFLPlannerViewControllers/TFLPlannerViewController;
+			sourceTree = "<group>";
+		};
+		F7CF6FE2161F1F41005F4867 /* Localization.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7CF6FE1161F1F41005F4867 /* en */,
+				F7CF6FE4161F1F53005F4867 /* fr */,
+			);
+			name = Localization.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F71CC09815F74C68009984B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rohit Singal (UGQKS7R3ZE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rohit Singal (UGQKS7R3ZE)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "0A9812D8-8522-46CA-9E8A-D5CC0B0A1D5E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0A9812D8-8522-46CA-9E8A-D5CC0B0A1D5E";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F71CC09915F74C68009984B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rohit Singal (UGQKS7R3ZE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rohit Singal (UGQKS7R3ZE)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "0A9812D8-8522-46CA-9E8A-D5CC0B0A1D5E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0A9812D8-8522-46CA-9E8A-D5CC0B0A1D5E";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F71CC09B15F74C68009984B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TFL/TFL-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "TFL/TFL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F71CC09C15F74C68009984B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TFL/TFL-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "TFL/TFL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F71CC06B15F74C68009984B8 /* Build configuration list for PBXProject "TFL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71CC09815F74C68009984B8 /* Debug */,
+				F71CC09915F74C68009984B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71CC09A15F74C68009984B8 /* Build configuration list for PBXNativeTarget "TFL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71CC09B15F74C68009984B8 /* Debug */,
+				F71CC09C15F74C68009984B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F718219C1615C23B00C8F95B /* TFLData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F718219D1615C23B00C8F95B /* TFLData.xcdatamodel */,
+			);
+			currentVersion = F718219D1615C23B00C8F95B /* TFLData.xcdatamodel */;
+			name = TFLData.xcdatamodeld;
+			path = "Code/Project/TFL/TFL/CoreData Model/TFLDataModel/TFLData.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F71CC06815F74C68009984B8 /* Project object */;
+}
